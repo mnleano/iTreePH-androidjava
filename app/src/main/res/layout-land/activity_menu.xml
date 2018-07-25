@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MenuActivity">
+
+    <include layout="@layout/toolbar_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivTree"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/center"
+            android:background="@drawable/background_stroke_green"
+            android:padding="16dp"
+            android:src="@drawable/img_tree" />
+
+        <View
+            android:id="@+id/center"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+
+        <ImageView
+            android:id="@+id/ivQuiz"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/center"
+            android:background="@drawable/background_green_rounded"
+            android:padding="16dp"
+            android:src="@drawable/img_quiz" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_treevia_dark"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_treevia_top_dark"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            fontPath="fonts/great-vibes.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treevia "
+            android:textSize="@dimen/textSizeHeader"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></LinearLayout>
+
+
+</LinearLayout>

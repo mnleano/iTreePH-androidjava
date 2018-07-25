@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeHeader">20sp</dimen>
+    <dimen name="textSizeMenu">24sp</dimen>
+
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+
+</resources>
