@@ -9,38 +9,63 @@
 
     <include layout="@layout/toolbar_logo" />
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/ivTree"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="8dp"
-            android:layout_toLeftOf="@+id/center"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             android:background="@drawable/background_stroke_green"
             android:padding="16dp"
             android:src="@drawable/img_tree" />
 
         <View
-            android:id="@+id/center"
-            android:layout_width="1dp"
-            android:layout_height="1dp"
-            android:layout_centerInParent="true" />
+            android:layout_width="2dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary" />
 
+        <ImageView
+            android:id="@+id/ivTreevia"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/background_green_rounded"
+            android:padding="16dp"
+            android:src="@drawable/img_tree" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary" />
 
         <ImageView
             android:id="@+id/ivQuiz"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="8dp"
-            android:layout_toRightOf="@+id/center"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             android:background="@drawable/background_green_rounded"
             android:padding="16dp"
             android:src="@drawable/img_quiz" />
 
-    </RelativeLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/ivAboutUs"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/background_stroke_green"
+            android:padding="16dp"
+            android:src="@drawable/img_aboutus" />
+
+    </LinearLayout>
 </LinearLayout>

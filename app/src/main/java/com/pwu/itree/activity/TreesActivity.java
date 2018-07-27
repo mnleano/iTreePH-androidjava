@@ -3,8 +3,8 @@ package com.pwu.itree.activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 
 import com.pwu.itree.R;
@@ -61,9 +61,9 @@ public class TreesActivity extends BaseActivity implements TreesAdapter.OnItemCl
 
     private void checkOrientation() {
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
-            rv.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
+            rv.setLayoutManager(new GridLayoutManager(this, 3));
         else
-            rv.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+            rv.setLayoutManager(new GridLayoutManager(this, 2));
     }
 
     @Override
@@ -71,9 +71,9 @@ public class TreesActivity extends BaseActivity implements TreesAdapter.OnItemCl
         super.onConfigurationChanged(newConfig);
 
         if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE)
-            rv.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
+            rv.setLayoutManager(new GridLayoutManager(this, 3));
         else
-            rv.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+            rv.setLayoutManager(new GridLayoutManager(this, 2));
     }
 
     @Override

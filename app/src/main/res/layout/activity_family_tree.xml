@@ -46,14 +46,14 @@
                     android:textColor="@color/textColorLight" />
 
                 <!--<com.pwu.itree.widgets.TextViewLightItalic-->
-                <!--android:id="@+id/tvScientificName"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginBottom="8dp"-->
-                <!--android:layout_marginLeft="8dp"-->
-                <!--android:text="Scientific name"-->
-                <!--android:textColor="@color/textColorLight"-->
-                <!--android:textStyle="italic" />-->
+                    <!--android:id="@+id/tvScientificName"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:text="Scientific name"-->
+                    <!--android:textColor="@color/textColorLight"-->
+                    <!--android:textStyle="italic" />-->
 
 
             </LinearLayout>
@@ -74,7 +74,8 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/background_white_rounded"
                 android:padding="8dp"
-                android:text="@string/lorem_ipsum_long" />
+                android:text="@string/lorem_ipsum_long"
+                android:textColor="@color/textColorDark" />
         </android.support.v7.widget.CardView>
 
     </LinearLayout>

@@ -9,99 +9,99 @@ import static com.pwu.itree.data.DatabaseHelper.TBL_TREES;
 import static com.pwu.itree.data.DatabaseHelper.TBL_TREES_ROW;
 import static com.pwu.itree.data.DatabaseHelper.insertQuery;
 
-public class tree9 {
+public class tree4 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "9, '', 'Dipterocarpaceae', " +
-                "'Family of 16 genera and approximately 695 known species of mainly tropical lowland rainforest trees. The family name, from the type genus Dipterocarpus, is derived from Greek (di = two, pteron = wing and karpos = fruit) and refers to the two-winged fruit. The largest genera are Shorea, Hopea, Dipterocarpus, and Vatica. Many are large forest emergent species, typically reaching heights of 40–70 m, some even over 80 m (in the genera Dryobalanops, Hopea and Shorea), with the tallest known living specimen (Shorea faguetiana) 93.0 m tall. The species of this family are of major importance in the timber trade. Their distribution is pantropical, from northern South America to Africa, the Seychelles, India, Indochina, Indonesia and Malaysia. The greatest diversity of Dipterocarpaceae occurs in Borneo.[6] Some species are now endangered as a result of overcutting, extensive illegal logging and habitat conversion. They provide valuable woods, aromatic essential oils, balsam, resins and are a source for plywood.', " + R.drawable.family_dipterocarpaceae));
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "4, '', 'Myrtaceae', " +
+                "'Is a large family of mainly trees and shrubs with over a hundred different genera, thousands of species and a huge number of garden hybrids and cultivars. All species are woody, with essential oils, and flower parts in multiples of four or five. The leaves are evergreen, alternate to mostly opposite, simple, and usually with an entire (not toothed) margin. The flowers have a base number of five petals, though in several genera the petals are minute or absent. The stamens are usually very conspicuous, brightly coloured and numerous.', " + R.drawable.family_myrtaceae));
 
-        // 9 - Dipterocarpaceae
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 0, 'Palosapis', 'Anisoptera thurifera', " +
+        // 4 - Myrtaceae
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 0, 'Binoloan', 'Acmena acuminatissima', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 1, 'Dagang', 'Anisoptera aurea', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 1, 'Bagras', 'Eucalyptus deglupto', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 2, 'Apitong', 'Dipterocarpus grandiflorus', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 2, 'Swamp mahogany', 'Eucalyptus robusta', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 3, 'Hagakhak', 'Dipterocarpus validus', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 3, 'Guava', 'Psidium guajava', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 4, 'Dalingdingan', 'Hopea foxworthyi', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 4, 'Kalubkob', 'Syzygium calubcob', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 5, 'Saplungan', 'Hopea plagata', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 5, 'Kurasam', 'Syzygium claviflorum', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 6, 'Bagtikan', 'Parashorea malaanonan', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 6, 'Duhat', 'Syzygium cumini', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 7, 'Tiaong', 'Shorea ovato', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 7, 'Tampui', 'Syzygium jambos', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 8, 'Almon', 'Shorea almon', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 8, 'Manangkil', 'Syzygium mananquil', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 9, 'Yakal', 'Shorea astylosa', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 9, 'Syzygium mananquil', 'Syzygium nitidum', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 10, 'White lauan', 'Shorea contorta', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 10, 'Syzygium nitidum', 'Syzygium samarangense', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 11, 'Guijo', 'Shorea guiso', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 11, 'Pangloboein', 'Syzygium simile', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 12, 'Red lauan', 'Shorea negrosensis', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 12, 'Malatampoy', 'Syzygium xanthophyllum', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 13, 'Mayapis', 'Shorea palosapis', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 13, 'Malabayabas', 'Tristaniopsis decorticata', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 14, 'Tanguile', 'Shorea polysperma', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "4, 14, 'Mangkono', 'Xanthostemon verdugonianus', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +

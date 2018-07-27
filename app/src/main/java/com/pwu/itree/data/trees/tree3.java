@@ -9,99 +9,99 @@ import static com.pwu.itree.data.DatabaseHelper.TBL_TREES;
 import static com.pwu.itree.data.DatabaseHelper.TBL_TREES_ROW;
 import static com.pwu.itree.data.DatabaseHelper.insertQuery;
 
-public class tree9 {
+public class tree3 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "9, '', 'Dipterocarpaceae', " +
-                "'Family of 16 genera and approximately 695 known species of mainly tropical lowland rainforest trees. The family name, from the type genus Dipterocarpus, is derived from Greek (di = two, pteron = wing and karpos = fruit) and refers to the two-winged fruit. The largest genera are Shorea, Hopea, Dipterocarpus, and Vatica. Many are large forest emergent species, typically reaching heights of 40–70 m, some even over 80 m (in the genera Dryobalanops, Hopea and Shorea), with the tallest known living specimen (Shorea faguetiana) 93.0 m tall. The species of this family are of major importance in the timber trade. Their distribution is pantropical, from northern South America to Africa, the Seychelles, India, Indochina, Indonesia and Malaysia. The greatest diversity of Dipterocarpaceae occurs in Borneo.[6] Some species are now endangered as a result of overcutting, extensive illegal logging and habitat conversion. They provide valuable woods, aromatic essential oils, balsam, resins and are a source for plywood.', " + R.drawable.family_dipterocarpaceae));
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "3, '', 'Annonaceae', " +
+                "'The custard apple, or annona, family, the largest family of the magnolia order (Magnoliales) with 129 genera and about 2,120 species. The family consists of trees, shrubs, and woody climbers found mainly in the tropics, although a few species extend into temperate regions. Many species are valuable for their large pulpy fruits, some are useful for their timber, and others are prized as ornamentals. Bark, leaves, and roots of several species are important in folk medicine, and others are important sources of perfume and spice. Members of the family tree3 have simple leaves with smooth margins that are alternately arranged in two rows along the stems. The radially symmetrical flowers are usually bisexual. In most species the three sepals are united at the base. There are six brown, yellow, or greenish petals, many stamens in a spiral, and many pistils, each with a one-chambered ovary containing many ovules. The fruit is a berry. Flowers in some species are borne directly on large branches or on the trunk (cauliflorous). The leaves and wood are often fragrant.', " + R.drawable.family_annonaceae));
 
-        // 9 - Dipterocarpaceae
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 0, 'Palosapis', 'Anisoptera thurifera', " +
+//        3 - Annonaceae
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 0, 'Bagang aso', 'Anaxagorea luzonensis', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 1, 'Dagang', 'Anisoptera aurea', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 1, 'Atemoya', 'Annona atemoya', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 2, 'Apitong', 'Dipterocarpus grandiflorus', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 2, 'Guayabano', 'Annona muricata', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 3, 'Hagakhak', 'Dipterocarpus validus', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 3, 'Anonas', 'Annona reticulata', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 4, 'Dalingdingan', 'Hopea foxworthyi', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 4, 'Atis', 'Annona squamosa', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 5, 'Saplungan', 'Hopea plagata', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 5, 'Ilang-ilang', 'Canaga odorato', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 6, 'Bagtikan', 'Parashorea malaanonan', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 6, 'Amuyong	', 'Goniothalamus mauyon', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 7, 'Tiaong', 'Shorea ovato', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 7, 'Takulau', 'Miliosa vidalil', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 8, 'Almon', 'Shorea almon', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 8, 'Lanutan', 'Mitrephora lanotan', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 9, 'Yakal', 'Shorea astylosa', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 9, 'Anolang', 'Papualthia lanceolata', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 10, 'White lauan', 'Shorea contorta', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 10, 'Kalimatas', 'Phaeanthus ebracteolatus', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 11, 'Guijo', 'Shorea guiso', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 11, 'Bolon', 'Platymitra arborea', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 12, 'Red lauan', 'Shorea negrosensis', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 12, 'Yellow lanutan', 'Polyalthia flava', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 13, 'Mayapis', 'Shorea palosapis', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 13, 'Indian lanutan', 'Polyalthia longifolia', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
                 "'otherUSage', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 14, 'Tanguile', 'Shorea polysperma', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 14, 'Biriba', 'Rollinia mucosa', " +
                 "'description', " + 
                 "'habitat', " +
                 "'cultivationDetails', " +
