@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tree0"
+            android:title="Araceae" />
+        <item
+            android:id="@+id/tree1"
+            android:title="Arecaceae" />
+        <item
+            android:id="@+id/tree2"
+            android:title="Poaceae" />
+        <item
+            android:id="@+id/tree3"
+            android:title="Annonaceae" />
+        <item
+            android:id="@+id/tree4"
+            android:title="Myrtaceae" />
+        <item
+            android:id="@+id/tree5"
+            android:title="Fabaceae: Caesalpiniodeae" />
+        <item
+            android:id="@+id/tree6"
+            android:title="Fabaceae: Mimosoideae" />
+        <item
+            android:id="@+id/tree7"
+            android:title="Fabaceae: Faboideae" />
+        <item
+            android:id="@+id/tree8"
+            android:title="Moraceae" />
+        <item
+            android:id="@+id/tree9"
+            android:title="Dipterocarpaceae" />
+        <item
+            android:id="@+id/tree10"
+            android:title="Meliaceae" />
+        <item
+            android:id="@+id/tree11"
+            android:title="Sapindaceae" />
+        <item
+            android:id="@+id/tree12"
+            android:title="Apocynaceae" />
+        <item
+            android:id="@+id/tree13"
+            android:title="Rubiaceae" />
+        <item
+            android:id="@+id/tree14"
+            android:title="Lamiaceae" />
+
+
+    </group>
+
+</menu>

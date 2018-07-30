@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/splashBackground"
+    tools:context=".activity.SplashScreenV2Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/borderColor" />
+
+        <com.pwu.itree.widgets.TextViewMed
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="@string/app_name"
+            android:textColor="@color/textColorWhite"
+            android:textSize="@dimen/splashAppName" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/borderColor" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivTree"
+        android:layout_width="@dimen/splashImagePreview"
+        android:layout_height="@dimen/splashImagePreview"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_tree"
+        app:civ_border_color="@color/borderColor"
+        app:civ_border_width="2dp" />
+
+    <com.pwu.itree.widgets.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/app_tagline"
+        android:textColor="@color/textColorWhite" />
+
+    <!--<View-->
+    <!--android:id="@+id/center"-->
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_centerInParent="true" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ivName"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/center"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="64dp"-->
+    <!--android:src="@drawable/logo_itree"-->
+    <!--android:visibility="invisible" />-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ivTree"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/center"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginBottom="-64dp"-->
+    <!--android:src="@drawable/logo_tree"-->
+    <!--android:visibility="invisible" />-->
+
+</RelativeLayout>

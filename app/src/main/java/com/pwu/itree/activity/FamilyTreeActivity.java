@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.pwu.itree.R;
 import com.pwu.itree.builder.DialogBuilder;
-import com.pwu.itree.data.DatabaseHelper;
+import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.widgets.TextViewMed;
 
 import butterknife.BindView;
@@ -42,7 +42,7 @@ public class FamilyTreeActivity extends BaseActivity {
     private void initData() {
 
         familyType = getIntent().getIntExtra("familyType", 0);
-        tree = DatabaseHelper.getFamilyTree(this, familyType);
+        tree = DatabaseQueries.getFamilyTree(this, familyType);
 
         setTitle(tree.getScientificName());
         ivTree.setImageResource(tree.getDrawable());

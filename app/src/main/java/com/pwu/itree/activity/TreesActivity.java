@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 
 import com.pwu.itree.R;
 import com.pwu.itree.adapter.TreesAdapter;
-import com.pwu.itree.data.DatabaseHelper;
+import com.pwu.itree.data.DatabaseQueries;
 
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class TreesActivity extends BaseActivity implements TreesAdapter.OnItemCl
     }
 
     private void initList() {
-        list = DatabaseHelper.getFamilyTrees(this);
+        list = DatabaseQueries.getFamilyTrees(this);
         adapter = new TreesAdapter(this, list, this);
 
 

@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="lightColorPrimaryDark">#006400</color>
+    <color name="lightColorPrimary">#008000</color>
+    <color name="lightColorAccent">#32cd32</color>
+    <color name="lightWindowBackground">#e1e1e1</color>
+    <color name="lightSecondaryBackground">#fafafa</color>
+    <color name="lightTextColor">#000</color>
+    <color name="lightTextColorPrimary">#fff</color>
+
+    <color name="lightDrawerBackground">#4d3b23</color>
+
+    <color name="darkColorPrimaryDark">#000</color>
+    <color name="darkColorPrimary">#212121</color>
+    <color name="darkColorAccent">#32cd32</color>
+    <color name="darkWindowBackground">#303030</color>
+    <color name="darkSecondaryBackground">#424242</color>
+    <color name="darkTextColor">#fff</color>
+    <color name="darkTextColorPrimary">#fff</color>
+
+    <color name="borderColor">#fff</color>
+    <color name="forestGreen">#228B22</color>
+
+    <color name="textColorWhite">#fff</color>
+    <color name="textColorBlack">#000</color>
+    <!-- SHOULDN'T BE USED ANYMORE -->
+
+
     <color name="colorPrimary">@color/green</color>
     <color name="colorPrimaryDark">@color/darkerGreen</color>
     <color name="colorAccent">@color/limeGreen</color>
     <color name="textColor">#000</color>
 
-    <color name="forestGreen">#228B22</color>
+
     <color name="limeGreen">#32CD32</color>
 
     <color name="greenYellow">#ADFF2F</color>
@@ -25,4 +52,6 @@
     <color name="textColorBrown">#4d3b23</color>
     <color name="textColorLight">#fff</color>
     <color name="textColorDark">#000</color>
+
+
 </resources>

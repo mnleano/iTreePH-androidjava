@@ -1,14 +1,33 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@color/windowBackground</item>
+    <style name="LightTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/lightColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/lightColorPrimaryDark</item>
+        <item name="android:colorAccent">@color/lightColorAccent</item>
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
+
+        <item name="android:windowBackground">@color/lightWindowBackground</item>
         <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+
+        <item name="splashBackground">@color/forestGreen</item>
+
     </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/darkColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="android:colorAccent">@color/darkColorAccent</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+
+        <item name="android:windowBackground">@color/darkWindowBackground</item>
+        <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+
+        <item name="splashBackground">@color/darkWindowBackground</item>
+    </style>
+
 
     <style name="CustomAnimation" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/transition_in</item>
