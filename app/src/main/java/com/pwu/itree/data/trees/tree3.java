@@ -18,94 +18,94 @@ public class tree3 {
 
 //        3 - Annonaceae
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 0, 'Bagang aso', 'Anaxagorea luzonensis', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Anaxagorea luzonensis is an erect shrub, usually growing 1 - 2 meters tall, but occasionally becoming a small tree up to 4 meters. The plant is harvested from the wild for local medicinal use. The plant has gained a reputation for the treatment of erectile dysfunction and is traded on the Internet for sale in capsules.', " +
+                "'Densely forested slopes at elevations around 500 - 700 meters.', " +
+                "'Not known.', " +
+                "'None known. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 1, 'Atemoya', 'Annona atemoya', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Atemoya is a fast-growing deciduous tree that can reach a height of 7 - 9 meters. The tree has a short bole with the branches typically drooping and the lowest ones touching the ground. The tree is a garden hybrid, the result of a cross between A. cherimola and A. squamosa. Said to be one of the best tasting fruits in the world, it is often cultivated in gardens and commercial orchards. The tree can be grown in warmer regions of the tropics than A. Cherimola and so is widely cultivated there for its edible fruit.', " +
+                "'A hybrid of garden origin, it is not known in the wild.', " +
+                "'In the tropics the tree is only grown at elevations above 1,000 meters and will not survive under lowland conditions. It is grown in the lowlands in the subtropics. It grows best in areas where annual daytime temperatures are within the range 24 - 28°c, but can tolerate 12 - 32°c. Plants can tolerate occasional light frosts. Young trees will not tolerate prolonged temperatures between -3.9 to -6.7°c, whereas mature trees can withstand those temperatures with slight to moderate damage. It prefers a mean annual rainfall in the range 2,000 - 3,000mm, but tolerates 600 - 4,200mm Prefers a moist, sandy loam with a pH around 6. Tolerant of a range of soil conditions. Requires a moist but well-drained soil. Prefers a pH in the range 5.5 - 6.5, tolerating 5 – 7. Trees start producing fruit when about 4 - 5 years old from seed, or about 2 - 3 years after grafting. Mature trees produce from 23 - 34 kg per tree, possibly more with good management, or 5 - 20 tonnes/ha per year. Plants sometimes have two distinct flowering periods each year. Fruiting is improved if the flowers are hand pollinated. The fruit has good shipping qualities. There are many named varieties.', " +
+                "'The plants can be used as rootstocks for cultivars of this species and for other Annona species. The green fruit and seed have vermicidal and insecticidal properties.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 2, 'Guayabano', 'Annona muricata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'The sour sop is a fast-growing, small, evergreen tree that can reach a height of about 7 meters. The bole can be up to 15cm in diameter, generally branching from near the base. The tree is widely cultivated in tropical regions for its edible fruit. It was one of the first fruits carried from the Americas to the Old World tropics and now it is widely distributed in Asia from S India to N Australia and Polynesia, and in Africa in the hot lowlands in the west and east.', " +
+                "'Found on coastal limestone and lowland woodland.', " +
+                "'Grows best in the moist, humid tropical and subtropical lowlands at elevations up to about 1,000 meters. It prefers a mean annual temperature in the range 25 - 30°c with a mean annual rainfall over 1,000mm. Grows best in a sunny position. Prefers a moist but well-drained, sandy loam with a pH in the range 5.5 - 6.5. Prefers a deep rich loam. Succeeds in light-textured, alkaline soils. Established plants are very drought tolerant. The leaves have an aroma similar to blackcurrants. Flowers are protandrous, and the pollen is shed as the outer petals open towards the evening. The inner petals open much later and only very slightly, admitting small insects attracted by the fragrance of the flowers. Presumably these insects effect cross-pollination, though rather inadequately, for few flowers set fruit and many fruits are misshapen since numerous ovules are not fertilized. Hand pollination is effective in improving fruit yield and quality. Sporadic flowering and fruiting can occur all year round in favorable conditions. Fruiting starts in the 2nd year, and 5-year-old trees produce 10 - 50 fruits, depending on pollination efficiency and nutrient status. There are many named varieties. The area around the base of the tree should be kept free from weeds or covered with mulch to avoid dehydration of the shallow roots during the dry season. Annona muricata can tolerate dry soil conditions, but the trees shed too many leaves if they experience prolonged drought.', " +
+                "'A powder of the dried leaves and sap from fresh ones are useful in destroying vermin. A powder or oil from the seeds has been used to kill lice and bedbugs. All tree parts have insecticidal properties and can also be used, with fruit as bait, to kill fish. The heartwood is brown; the sapwood is whitish. The wood is soft, light (specific gravity of 0.4), not durable. It is rarely used as a construction timber but has been used for ox yokes. The wood makes a suitable fuel.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 3, 'Anonas', 'Annona reticulata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Bullocks heart is a fast-growing, deciduous tree with a rounded or spreading crown.  It can reach up to 7 meters tall with a bole up to 30cm in diameter. Long cultivated in S. America for its fruit, the tree is no longer known in a truly wild setting. It is mainly grown in gardens in various areas of the tropics for its edible fruit. The flesh, which is somewhat lacking in flavor, does not taste as good as some other members of this genus, so it is not so popular on the local market.', " +
+                "'Not known in a truly wild location. Moist or dry thickets and forest, often in second growth, common in cultivation, chiefly at elevations of 1,200 meters or less in Guatemala.', " +
+                "'The plant needs a tropical climate for good growth, but it can survive in subtropical conditions.  It is less drought-tolerant than the sugar apple and prefers a humid atmosphere. It succeeds from sea level to an elevation of 1,500 meters. Plants can tolerate light frost. Prefers a moist, sandy loam with a pH around 6. The custard apple does best in low-lying, deep, rich soil with ample moisture and good drainage. It grows to full size on oolithic limestone, and grows wild in light sand and various other types of soils. It is not drought tolerant. Trees come into bearing in 4 - 5 years from seed. The tree is naturally a fairly heavy bearer. With adequate care, a mature tree will produce 34-45 kg of fruits/year. In Thailand it has been grown as a mixed home garden plants along with big trees like mango, ma-praang, coconut etc. It may also be useful as a genetic resource for hybridization work on Annona species. The leaves are ill-smelling.', " +
+                "'The leaves are employed in tanning and also yield a blue or black dye. Young twigs provide good fiber. Superior to the bark fiber from Annona squamosal. The bark is used for tying the frames of huts. The seeds, leaves and young fruits have insecticidal properties. The plant is poisonous and has a potential as a pesticide for non-vertebrates. The yellow wood is soft, fibrous but durable, moderately close-grained, with a specific gravity of 0.65. It is used to make utensils, yokes for oxen.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 4, 'Atis', 'Annona squamosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'The custard apple is an attractive, slow-growing deciduous shrub or small tree with a rounded or spreading, open crown. It reaches a height of 3 - 6 meters. A very popular fruit, the tree is widely cultivated in tropical and subtropical areas around the world for its edible fruit.  It is commonly sold in markets.', " +
+                "'Not known in a truly wild situation.', " +
+                "'Trees succeed in subtropical to tropical areas at elevations up to 2,000 meters, with a mean annual temperature up to 41°c and a mean annual rainfall above 700mm. They are said to do well in hot and relatively dry climates such as those of the low-lying interior plains of many tropical countries. Plants can tolerate occasional light frosts. Prefers a moist but well-drained, sandy loam with a pH around 6. Also succeeds on rocky, alkaline soils with a pH up to 8. The tree has a reputation, particularly in India, of being a hardy, drought-resistant crop. This is only partly correct. Although the rest period and leaf fall enable the tree to bridge a severe dry season, it requires adequate moisture during the growing season. Trees start to bear fruit when 3 - 4 years old. A mature tree, 5 meters high, produces several dozen fruits in a season. There are some named varieties.', " +
+                "'Green fruits, seeds and leaves have effective vermicidal and insecticidal properties. The seeds contain the insecticide acetogin. The fibrous bark has sometimes been used locally for cordage. The light yellow sapwood and brownish heartwood are soft, light in weight and weak. The tree is a good source of firewood.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 5, 'Ilang-ilang', 'Canaga odorato', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ylang ylang is a very fast-growing, straggling, pendulous evergreen tree with branches that droop in long leafy sprays that can be 3 - 6 meters long. The tree can grow from 3 - 30 meters tall with a straight bole up to 30cm in diameter. Ylang ylang provides a very popular essential oil with a wide range of uses, The plant also has many medicinal applications and is a source of wood and fibre. It is often cultivated in the tropics, and also protected when forest areas are cleared, for its flowers and the essential oil that can be obtained from them and also for its timber. Ylang ylang is also grown in gardens as an ornamental plant - there is a dwarf form that grows only 1.5 meters tall.', " +
+                "'Moist evergreen forests and teak forests. From sea level to mid-montane elevations. Common in secondary forest formations and along forest edges in Vietnam.', " +
+                "'The tree thrives in the more humid lowland tropics, where it is found at elevations below 1,200 meters. It grows best in areas where annual daytime temperatures are within the range 20 - 30°c, but can tolerate 16 - 34°c. It can be killed by temperatures of 5°c or lower. It prefers a mean annual rainfall in the range 1,500 - 2,000mm, but tolerates 700 - 2,800mm. Prefers a fertile, moist but well-drained soil in a sunny position. Prefers a pH in the range 5 - 6.5, tolerating 4.5 – 8. Trees have escaped from cultivation to become naturalized in some areas. At sea-level, saplings of cultivated trees flower when 1.5 - 2 years old and 2 meters tall, though at an elevation of 500 meters flowering may start only after 7 years. Trees can reach full production of essential oils when they are about 10 years old. Individual trees can produce about 120 kilos of flowers a year, yielding about 350g of essential oil. A dwarf variety of C. Odorata known as var. Fruticosa (Craib) Sinclair, is a bush 1 - 1.5 meters tall, with frequently supernumerary, very curly petals. It flowers throughout the year, but never sets fruits. There are two main groups that can be distinguished in cultivated ylang ylang plants. cv. Group Cananga (forma macrophylla Steenis), flowers are the source of cananga oil; branches perpendicular to the stem; leaves 20 cm x 10 cm; cultivated in Java, Fiji and Samoa. Cv. Group Ylang-ylang (forma genuina Steenis), the source of ylang-ylang oil; branches more drooping; leaves smaller; probably originating from the Philippines and cultivated throughout the tropics. When the buds open, the flowers are not yet fragrant and the petals are green and covered with white hairs; the petals enlarge, become glabrous and turn from green to yellow after 15 - 20 days and then the flowers emit their powerful and agreeable odor, discernible at a distance. Both cultivated and wild trees flower throughout the year, but with marked seasonal peaks after periods of dry weather.', " +
+                "'Two types of essential oil are obtained from the flowers, both of which are used to supply the dominant odor note of many perfumes. Cv. Group Ylang-ylang produces ylang-ylang oil, which has a more subtle perfume. Extra quality ylang-ylang oil is much used in high-class perfumery. Third grade ylang ylang oil has a harsher, more tenacious odour and, like cananga oil, is mainly used in soaps and toiletries for men. Cv. Group Cananga yields cananga oil which has a harsher, more tenacious odor. It can be mixed with coconut oil and used as a hair oil named Macassar oil. It is also often used in soaps and toiletries for men. The fragrant yellow-green flowers are made into leis. They are also used to scent coconut oil. The fragrant flowers are used for personal adornment and decoration at festivities and other celebrations. Malaysians and Indonesians are very fond of the scent, and the women like to hide a flower in their hair. The fresh flowers are used in various ceremonies in Java and Bali. The flowers are also put away with clothes, or scattered about the bed. The bark can be beaten to make coarse ropes. The heartwood is pinkish-buff, yellowish to light gray; it is not differentiated from the sapwood. The texture is coarse; the grain straight; there is no distinctive odor or taste. The wood is light in weight; not very durable, being vulnerable to termite attack. It is easy to season with little or no degrade. It is said to be easy to work and finishes smoothly. The wood is used locally for general construction, turnery and making canoes, and is also used for making boxes, tea chests and plywood. It has potential for making small drums and matchsticks. The wood is sometimes used for fuel.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 6, 'Amuyong	', 'Goniothalamus mauyon', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Goniothalamus amuyon is a shrub or a small tree that can grow 2 - 15 meters tall. The bole can be around 20cm in diameter. The plant is harvested from the wild for local use as a medicine and source of fiber.', " +
+                "'Forests at low to medium elevations.', " +
+                "'Not known.', " +
+                "'The bark yields an attractive apricot-buff colored bast fiber, which is made into rope. The rope is somewhat weak, it has a tensile strength of 345 kilos per square centimeter, reducing by 15% when wet.', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 7, 'Takulau', 'Miliosa vidalil', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 7, 'Takulau', 'Miliusa vidalii', " +
+                "'Miliusa vidalii is a small to large tree, growing up to 30 meters tall. The wood is used locally, whilst an essential oil is contained in the leaves. A canopy tree in rainforests. Semi-deciduous mesophyll to notophyll vine forests, generally on alluvium, At elevations from near sea level to 200 meters.', " +
+                "'A canopy tree in rainforests. Semi-deciduous mesophyll to notophyll vine forests, generally on alluvium, at elevations from near sea level to 200 meters.', " +
+                "'Not known.', " +
+                "'An essential oil is obtained from the leaves. A sesquiterpenic oil, its principal components are [beta]-caryophyllene (20.2%) and caryophyllene oxide (12.5%). The wood is tough and fine grained. It is used for lances.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 8, 'Lanutan', 'Mitrephora lanotan', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Mitrephora lanotan is a shrub or small tree that usually grows 4 - 8 meters tall, though specimens up to 15 meters have been recorded. The plant is harvested from the wild for local medicinal use.', " +
+                "'An understory tree in dense, primary forests at elevations up to 300 meters.', " +
+                "'Not known.', " +
+                "'None known', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 9, 'Anolang', 'Papualthia lanceolata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Is a robust perennial plant producing a cluster of unbranched leafy stems up to 4 meters tall from a branched, woody rhizome. The plant is harvested from the wild for local use as a food. It is cultivated in Java.', " +
+                "'Forests, at elevations up to 1,000 meters.', " +
+                "'Not known.', " +
+                "'None known.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 10, 'Kalimatas', 'Phaeanthus ebracteolatus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Kalimatas is a small tree growing up to 15 meters in height. Leaves are ovate-lanceolate, 10 to 20 centimeters long, 3.5 to 6.5 centimeters wide, pointed at both ends, and borne upon 5-millimeter petioles. Flowers are solitary, or grow 3 to 4 together on the axils of the leaves, with 2- to 3-centimeter pedicels. Sepals are minute, triangular, and hairy. Petals are very unequal; the outer ones, oblong and 1.5 to 2 centimeters in length; the inner ones, ovate and smaller. Fruit are numerous, ovoid or ellipsoid-spiculate, yellowish when immature, reddish black when ripe, smooth, and borne in round clusters upon smooth stalks 2 to 3 centimeters long.', " +
+                "'An understory tree, common in primary and secondary lowland forest, on steep hills, especially ridges, on river banks and in open locations, on various soils; at elevations up to 800 meters.', " +
+                "'Plants can flower and produce fruit all year round. The extreme forms within Phaeanthus ebracteolatus differ morphologically quite a lot, this might be an indication of some ongoing speciation. The flowers have a sweet, apple-like smell.', " +
+                "'Bark is used for tying purposes. Wood used for light house construction.', " +
                 R.drawable.img_no_resource));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 11, 'Bolon', 'Platymitra arborea', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 11, 'Bolon', 'Tabernaemontana arborea', " +
+                "'Tabernaemontana arborea is a shrub or a tree with a spreading or rounded crown; it usually grows from 6 - 15 meters tall. The straight bole is usually 30 - 50cm in diameter, often with small buttresses.', " +
+                "'Moist or wet thickets or mixed forest, often in second growth, at elevations up to 600 meters.', " +
+                "'Not known.', " +
+                "'A fair amount of latex exudes when the trunk is cut. The heartwood is yellowish to reddish-brown; the usually narrow band of sapwood nearly white. The texture is fine; the grain straight and very close. The wood is very hard and tough, heavy, strong. It takes a very good polish.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 12, 'Yellow lanutan', 'Polyalthia flava', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Polyalthia flava is a tree growing up to 20 meters tall. The bole can be 40cm in diameter. The tree is harvested from the wild for the fiber from its inner bark, which is used locally.', " +
+                "'Forests at low elevations.', " +
+                "'Not known.', " +
+                "'A fiber obtained from the inner bark is used for making rope.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 13, 'Indian lanutan', 'Polyalthia longifolia', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Polyalthia longifolia is an evergreen tree growing up to 20 meters tall. The bole is straight. The tree is cultivated for its timber in southeast Asia, it is also often grown as an ornamental. The tree is held in high regard by Hindus, who often plant it near temples.', " +
+                "'Dry country in forests in Sri Lanka.', " +
+                "'Not known.', " +
+                "'The inner bark is said to yield a good bast fiber. The yellowish-white wood is rather soft, tough, fairly close and even-grained. It bends easily and has been used in making barrels.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "3, 14, 'Biriba', 'Rollinia mucosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Wild soursop is an evergreen tree with a low, dense crown that can grow 10 - 20 meters tall. The bole can be 40 - 60cm in diameter. The tree is commonly harvested from the wild for its excellent fruit, and also supplies medicines, wood and other commodities for local use. It is said to be the most popular fruit of western Amazonia and is cultivated for this fruit in some areas of the tropics. The fruit is sold in some local markets, where they are known as Fructa da Condessa. It is said to be one of the most promising of the unusual fruits being cultivated in Australia.', " +
+                "'Lowland humid limestone forest from sea level to around 600 meters. Found mainly in the more open areas of secondary growth.', " +
+                "'A plant of the hot, humid, tropical lowlands. Plants are very susceptible to frost damage. Prefers a fertile, well-drained soil and a position in full sun. A fast-growing tree. Plants can commence bearing fruit when about 4 years old. Plants are becoming threatened in the wild due to deforestation.', " +
+                "'The seeds are very hard. They are used as beads in necklaces and bracelets. The seeds are used as an insecticide. The yellowish wood is medium-textured, straight grained, heavy in one report but light in another,  hard and strong  It has poor mechanical properties and is not durable. It is used for small constructions, making boxes and linings.', " +
                 R.drawable.img_no_resource));
 
     }

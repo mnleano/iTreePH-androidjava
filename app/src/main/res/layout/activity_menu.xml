@@ -9,20 +9,6 @@
 
     <include layout="@layout/toolbar_logo" />
 
-    <!--<ImageView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:src="@drawable/img_tree" />-->
-
-    <!--<ImageView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0dp"-->
-    <!--android:layout_weight="1"-->
-    <!--android:adjustViewBounds="true"-->
-    <!--android:background="@color/colorPrimaryDark"-->
-    <!--android:src="@drawable/img_quiz" />-->
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -34,69 +20,142 @@
             android:layout_centerInParent="true" />
 
         <View
-            android:layout_width="1dp"
-            android:layout_height="320dp"
-            android:layout_centerInParent="true"
-            android:background="@color/colorPrimary" />
-
-        <View
             android:layout_width="320dp"
             android:layout_height="1dp"
             android:layout_centerInParent="true"
-            android:background="@color/colorPrimary" />
+            android:background="?attr/dividerColor" />
 
-
-        <ImageView
-            android:id="@+id/ivTree"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
+        <LinearLayout
+            android:id="@+id/trees"
+            android:layout_width="288dp"
+            android:layout_height="144dp"
             android:layout_above="@+id/center"
+            android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_toLeftOf="@+id/center"
-            android:background="@drawable/background_stroke_green"
-            android:padding="16dp"
-            android:src="@drawable/img_tree" />
-
-        <ImageView
-            android:id="@+id/ivTreevia"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
-            android:layout_above="@+id/center"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_toRightOf="@+id/center"
             android:background="@drawable/background_green_rounded"
-            android:padding="16dp"
-            android:src="@drawable/img_tree" />
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
 
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_tree" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="List of Trees"
+                android:textColor="@color/textColorWhite"
+                android:textSize="14sp" />
+        </LinearLayout>
 
         <ImageView
-            android:id="@+id/ivQuiz"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
+            android:id="@+id/quiz"
+            android:layout_width="288dp"
+            android:layout_height="144dp"
             android:layout_below="@+id/center"
-            android:layout_marginRight="16dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
-            android:layout_toLeftOf="@+id/center"
-            android:background="@drawable/background_green_rounded"
-            android:padding="16dp"
+            android:background="@drawable/background_stroke_green"
+            android:padding="24dp"
             android:src="@drawable/img_quiz" />
 
 
+        <View
+            android:id="@+id/blurry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="?attr/blurryBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/subMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fabMenu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="Settings" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/background_fab"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_settings" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="About us" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/background_fab"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_about_us" />
+            </LinearLayout>
+        </LinearLayout>
+
         <ImageView
-            android:id="@+id/ivAboutUs"
-            android:layout_width="128dp"
-            android:layout_height="128dp"
-            android:layout_below="@+id/center"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_toRightOf="@+id/center"
-            android:background="@drawable/background_stroke_green"
+            android:id="@+id/fabMenu"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/background_fab"
             android:padding="16dp"
-            android:src="@drawable/img_aboutus" />
+            android:src="@drawable/ic_arrow_up" />
 
-
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fabMenu"-->
+        <!--android:layout_width="56dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:src="@drawable/ic_arrow_up"-->
+        <!--app:backgroundTint="?attr/tilesBackground" />-->
     </RelativeLayout>
 
     <!--<LinearLayout-->

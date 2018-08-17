@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.pwu.itree.App;
 import com.pwu.itree.R;
+import com.pwu.itree.data.EZSharedPreferences;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -15,10 +15,11 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (!App.getInstance().isNightModeEnabled()) {
+        if (EZSharedPreferences.isNightModeEnabled(this))
             setTheme(R.style.DarkTheme);
-        }
 
+//        if (App.getInstance().isNightModeEnabled)
+//            setTheme(R.style.DarkTheme);
     }
 
     public void setSupportActionBar(Toolbar toolbar, boolean showAsUp) {
@@ -34,4 +35,13 @@ public class BaseActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public void setTheme(boolean isEnabled) {
+
+    }
+
+//    public static void isNightModeEnabled(boolean isEnabled){
+//        if(isEnabled)
+//            setTheme(R.style.DarkTheme);
+//    }
 }

@@ -36,11 +36,6 @@ public class TreesAdapter extends RecyclerView.Adapter<TreesAdapter.ViewHolder> 
         this.listener = listener;
     }
 
-    //    public TreesAdapter(Context ctx, List<Tree> list) {
-//        this.ctx = ctx;
-//        this.list = list;
-//    }
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

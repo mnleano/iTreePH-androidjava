@@ -69,12 +69,23 @@ public class DatabaseQueries {
             String commonName = cursor.getString(cursor.getColumnIndex("commonName"));
             String scientificName = cursor.getString(cursor.getColumnIndex("scientificName"));
             String description = cursor.getString(cursor.getColumnIndex("description"));
+            String habitat = cursor.getString(cursor.getColumnIndex("habitat"));
+            String cultivationDetails = cursor.getString(cursor.getColumnIndex("cultivationDetails"));
+            String otherUsage = cursor.getString(cursor.getColumnIndex("otherUsage"));
+
             int drawable = cursor.getInt(cursor.getColumnIndex("drawable"));
 //
-//            logString = "familyType: " + familyType + "\nId: " + id +
-//                    "\ncommonName: " + commonName + "\nscienfiticName: " + scientificName + "\n\n";
+            logString = "familyType: " + familyType +
+                    "\nId: " + id +
+                    "\ncommonName: " + commonName +
+                    "\nscienfiticName: " + scientificName +
+                    "\ndescription: " + description +
+                    "\nhabitat: " + habitat +
+                    "\ncultivationDetails: " + cultivationDetails +
+                    "\notherUsage: " + otherUsage +
+                    "\n\n";
 
-            logString = "description: " + description;
+//            logString = "description: " + description;
             Log.d(TAG, logString);
         }
 

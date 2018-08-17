@@ -9,13 +9,23 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.pwu.itree.R;
+import com.pwu.itree.data.EZSharedPreferences;
 
 public class DialogBuilder {
+
+
+    public static AlertDialog.Builder getBuilder(Context ctx) {
+
+        if (EZSharedPreferences.isNightModeEnabled(ctx))
+            return new AlertDialog.Builder(ctx, android.R.style.Theme_Material_Dialog);
+        else return new AlertDialog.Builder(ctx, android.R.style.Theme_Material_Light_Dialog);
+
+    }
 
     public static void showImagePreviewDialog(Context ctx, int drawable) {
         View v = LayoutInflater.from(ctx).inflate(R.layout.dialog_tree_preview, null);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
+        AlertDialog.Builder builder = getBuilder(ctx);
         builder.setView(v);
         builder.setCancelable(true);
 
@@ -33,8 +43,7 @@ public class DialogBuilder {
     }
 
     public static void showExitDialog(final Context ctx) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(ctx, android.R.style.Theme_Material_Light_Dialog_Alert);
-        builder.setTitle("Exit")
+        getBuilder(ctx).setTitle("Exit")
                 .setMessage("Are you sure you want to exit?")
                 .setCancelable(true)
                 .setPositiveButton("Exit", new DialogInterface.OnClickListener() {
@@ -49,7 +58,29 @@ public class DialogBuilder {
                         dialog.dismiss();
                     }
                 }).show();
+
     }
+
+    public static void themeChangeDialog(Context ctx, boolean isNightEnabled) {
+
+        String message = "";
+
+        if (isNightEnabled) {
+            message = "Theme changed to night mode, will be applied after restart";
+        } else {
+            message = "Theme changed to default mode, will be applied after restart";
+        }
+
+        getBuilder(ctx).setTitle(R.string.app_name).setMessage(message).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        }).show();
+
+        EZSharedPreferences.isNightModeEnabled(ctx, isNightEnabled);
+    }
+
 
     /**
      *  private void startTrivia() {

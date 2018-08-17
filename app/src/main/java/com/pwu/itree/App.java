@@ -1,34 +1,40 @@
 package com.pwu.itree;
 
 import android.app.Application;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
+
+import com.pwu.itree.data.EZSharedPreferences;
 
 public class App extends Application {
     public static final String TAG = "App";
-    private boolean isNightModeEnabled = false;
 
-    private static App mInstance = null;
+    private static App instance = null;
+
+    public boolean isNightModeEnabled;
+
+    public static App getInstance() {
+        return instance;
+    }
+
 
     @Override
     public void onCreate() {
         super.onCreate();
 
-        mInstance = this;
-
-        SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-        this.isNightModeEnabled = mPrefs.getBoolean("NIGHT_MODE", false);
+        instance = this;
+        isNightModeEnabled = EZSharedPreferences.isNightModeEnabled(this);
     }
 
-    public static App getInstance() {
-        return mInstance;
+
+    public void setNightMode(boolean isEnabled) {
+
+        EZSharedPreferences.isNightModeEnabled(this, isEnabled);
+
+        if (isEnabled)
+            setTheme(R.style.DarkTheme);
+        else
+            setTheme(R.style.LightTheme);
+
     }
 
-    public boolean isNightModeEnabled() {
-        return isNightModeEnabled;
-    }
 
-    public void setIsNightModeEnabled(boolean isNightModeEnabled) {
-        this.isNightModeEnabled = isNightModeEnabled;
-    }
 }

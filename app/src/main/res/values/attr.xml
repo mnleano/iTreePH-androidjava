@@ -2,7 +2,13 @@
 <resources>
     <declare-styleable name="AppTheme">
 
+        <attr name="toolbarBackground" format="color|reference" />
         <attr name="splashBackground" format="color" />
+        <attr name="tilesBackground" format="color|reference" />
+        <attr name="tilesStroke" format="color|reference" />
+        <attr name="dividerColor" format="color" />
+        <attr name="fabBackground" format="color" />
+        <attr name="blurryBackground" format="color" />
         <!--<attr name="dividerColor" format="color" />-->
         <!--<attr name="backgroundCardColor" format="color" />-->
         <!--<attr name="iconPlaceholder" format="integer" />-->

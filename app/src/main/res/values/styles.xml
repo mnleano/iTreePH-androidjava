@@ -4,30 +4,38 @@
     <style name="LightTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">@color/lightColorPrimary</item>
         <item name="android:colorPrimaryDark">@color/lightColorPrimaryDark</item>
-        <item name="android:colorAccent">@color/lightColorAccent</item>
-        <item name="android:textColor">@color/lightTextColor</item>
-        <item name="android:textColorPrimary">@color/lightTextColorPrimary</item>
-
+        <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/lightWindowBackground</item>
         <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textColorSecondary">@color/textColorBlack</item>
 
+        <item name="toolbarBackground">@color/lightColorPrimary</item>
         <item name="splashBackground">@color/forestGreen</item>
-
+        <item name="tilesStroke">@color/forestGreen</item>
+        <item name="tilesBackground">@color/forestGreen</item>
+        <item name="dividerColor">@color/forestGreen</item>
+        <item name="fabBackground">@color/lightColorPrimaryDark</item>
+        <item name="blurryBackground">@color/white</item>
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">@color/darkColorPrimary</item>
         <item name="android:colorPrimaryDark">@color/darkColorPrimaryDark</item>
-        <item name="android:colorAccent">@color/darkColorAccent</item>
-        <item name="android:textColor">@color/darkTextColor</item>
-        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
-
+        <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/darkWindowBackground</item>
         <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textColorSecondary">@color/textColorWhite</item>
 
+        <item name="toolbarBackground">@color/darkColorPrimary</item>
         <item name="splashBackground">@color/darkWindowBackground</item>
+        <item name="tilesStroke">@color/white</item>
+        <item name="tilesBackground">@color/darkColorPrimary</item>
+        <item name="dividerColor">@color/white</item>
+        <item name="fabBackground">@color/darkColorPrimaryDark</item>
+        <item name="blurryBackground">@color/black</item>
     </style>
-
 
     <style name="CustomAnimation" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/transition_in</item>
@@ -48,5 +56,9 @@
         <item name="android:shadowDy">0.5</item>
         <item name="android:shadowRadius">0.25</item>
     </style>
+
+    <style name="LightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="LightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
