@@ -17,95 +17,96 @@ public class tree10 {
                 "'The dogbane family of flowering plants of the gentian order (Gentianales), including more than 415 genera and about 4,600 species of trees, shrubs, woody vines, and herbs, distributed primarily in tropical and subtropical areas of the world. Members of the family have milky, often poisonous juice; smooth-margined leaves; and flowers in clusters (rarely solitary). Some species, notably those in the subfamily Asclepiadoideae, have pollen massed in bundles called pollinia. The fruit may be berrylike or fleshy but usually is a dry pod (follicle) that splits open at maturity, releasing many winged or tufted seeds.', " + R.drawable.family_meliaceae));
 
         // 10 - Meliaceae
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 0, 'Toona sureni', 'Aglaia edulis', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 0, 'Malasaging', 'Aglaia edulis', " +
+                "'Aglaia edulis is an evergreen, mid-canopy tree that can grow up to 33 meters tall. It has a short bole up to 50cm in diameter, with buttresses up to 150cm tall, 50cm outwards and 15cm thick. The plant is sometimes gathered from the wild for its edible fruit, medicinal uses and timber, which are all used locally. The tree is threatened by habitat loss. It is classified as Near Threatened in the IUCN Red List of Threatened Species(2011).', " +
+                "'A mid-canopy tree in evergreen and primary forests; more open, secondary formations; along rocky sea shores; on coral; mostly on hillsides and ridges, growing on sandy loams with clay, sandstone and coral; at elevations up to 1,670 meters.', " +
+                "'Trees can commence flowering when about 4 meters tall. A dioecious species, both male and female forms need to be grown if fruit and seed are required.', " +
+                "'The genus Aglaia is the only source of the group of about 50 known representatives of compounds that bear a unique cyclopenta tetrahydrobenzofuran skeleton. These compounds are more commonly called rocaglate or rocaglamide derivatives, or flavaglines, and most have been found to have potent insecticidal properties, antifungal, antiviral, antibacterial or anthelmintic bioactivity. The sapwood is pale brown, red or yellow. The wood is a hard and heavy with a light aroma of cedar. It is used locally for light construction work. The wood is used for boat, house and bridge building, furniture and agricultural implements, but supplies are limited. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 1, 'Bayanti', 'Aglaia rimosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Aglaia rimosa is a shrub or a tree with a dense crown; it can grow from 2 - 30 meters tall. The straight, cylindrical bole can be free of branches for up to 15 meters in larger trees, it can vary from 5 - 52cm in diameter, with buttresses in the larger trees that can be up to 50cm high, 100cm out and 3cm thick. The tree is harvested from the wild for local use as a food and source of wood. Habitat loss could pose a threat. The plant is classified as Near Threatened in the IUCN Red List of Threatened Species(2013).', " +
+                "'A canopy or sub-canopy tree found in more open areas of secondary forest, growing near rivers and by the coast; found on limestone and sandy clay soils; at elevations up to 1,350 meters.', " +
+                "'A dioecious species, both male and female forms need to be grown if fruit and seed are required.', " +
+                // TODO: SAME WITH ABOVE
+                "'The genus Aglaia is the only source of the group of about 50 known representatives of compounds that bear a unique cyclopenta[b]tetrahydrobenzofuran skeleton. These compounds are more commonly called rocaglate or rocaglamide derivatives, or flavaglines, and most have been found to have potent insecticidal properties, antifungal, antiviral, antibacterial or anthelmintic bioactivity. . The heartwood is red-brown; the sapwood is white to orange-yellow. The wood is used for local house construction.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 2, 'Kangko', 'Aphanamixis polystachya', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shan lian is an evergreen plant; occasionally a shrub 2 meters or more tall, it more commonly takes a tree-like habit when it can grow as tall as 32 meters. The cylindrical bole can be straight or crooked; it can be free of branches for up to 15 meters, up to 70cm in diameter (100cm in New Guinea), with buttresses up to 4 meters high. The tree is harvested from the wild for local use as a medicine and source of materials. The seed oil is a commercially valuable product in India, where it is used in making soap. The tree is sometimes grown as an ornamental.', " +
+                "'Dense or sparse mixed evergreen broad-leaved and deciduous forests in mountainous regions at low to middle elevations in southern China. Evergreen or open degraded forests, often along rivers, at elevations from 400 - 600 meters.', " +
+                "'Succeeds in a range of soils from sands to clays and on limestones, usually in well-drained situations but also able to tolerate seasonal inundation. Plants often commence flowering when very small.', " +
+                "'The oil obtained from the seed is used for illumination, making soap and as a lubricating oil. Called rohituka oil, it has a camphor-like scent. Extracts of the leaves and fruits have insecticidal properties.  Mashed leaves in a water solution are an effective antifeedant, able to protect crops against insect pests. Extracts from the twigs, bark, fruit and seeds are also effective anti-feedants Mashed leaves in a water solution are used to protect the fruiting heads of rice from disease. The very fine wood is used for construction and ship-making, and is suitable for furniture.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 3, 'Neem tree', 'Azadirachta indica', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Neem is a fast-growing and long-lived evergreen tree with a wide-spreading, dense, ovoid crown; it can grow about 15 meters tall with occasional specimens up to 25 meters. It has a short, straight bole that can be 100cm in diameter, and long, spreading branches that form a dense, large, oval or rounded crown. A true multipurpose tree, neem is a very valuable plant to grow. It is a very effective medicinal herb, provides food, timber, a very good insecticide and repellent and many other commodities. The tree has been introduced and established throughout the tropics and subtropics for its highly valued hardiness, it’s almost year-round shade, and its multiple wood and non-wood products.', " +
+                "'Mixed forests. Evergreen lowland forests. ', " +
+                "'Neem is a very tough tree and is said to grow almost anywhere in the lowland tropics and subtropics. It is cultivated at elevations up to 1,500 meters, but grows best when below 700 - 800 meters. It grows best in areas where annual daytime temperatures are within the range 26 - 40°c, but can tolerate 14 - 46°c. Mature plants tolerate some frost, but seedlings are more sensitive. It prefers a mean annual rainfall in the range 450 - 1,200mm, but tolerates 200 - 2,000mm. Prefers a well-drained soil in a sunny position. Tolerates poor soils and is drought tolerant once established. The plant quickly dies in waterlogged soils, and does not succeed in deep dry sands where the dry-season water table lies below 18 meters.', " +
+                "'The dried leaves are insect repellent; they are used like mothballs in linen cupboards and also placed within books in libraries. The neem tree is a potent insect repellent. The principal active compound is called azadirachtin. Extracts can be made from leaves and other tissues, but the seeds contain the highest concentrations of the compound. It acts as an insect repellent, inhibiting feeding, and disrupting insect growth, metamorphosis and reproduction. Formulations based on neem do not usually kill insects directly but alter their behavior in significant ways to reduce pest damage to crops, and reduce their reproductive potential.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 4, 'Spanish cedar', 'Cedrela adorata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Cedar wood is a monoecious, deciduous, medium-sized to large tree usually growing 30 -40 meters tall, exceptionally to 50 meters. The straight, cylindrical bole can be 60 - 120cm in diameter and unbranched for 15 - 24 meters. It has buttresses that can extend 120 - 360cm up the tree. One of the worlds most important timbers, it has been widely overexploited in the wild and is now frequently cultivated as a plantation tree for its valuable timber, especially in the Americas and Africa. It is sometimes planted as an ornamental along roads and in park. Large specimens have become scarce as a result of overexploitation, and therefore the tree has been listed as Endangered in the IUCN Red List of Threatened Species(2009).', " +
+                "'Widely distributed in wet, primary and secondary evergreen to semi-deciduous lowland or lower montane rainforest.', " +
+                "'A plant of low to middle elevations of the moister tropics, where it is found from sea level to 1,900 meters. It succeeds in areas where the mean annual temperature is in the range 22 - 26°c and the mean annual rainfall is 1,000 - 3,700 mm. Drought for part of the year does not adversely affect the health of the tree. Requires a sunny position. It is not demanding of soil nutrients, tolerating soils high in calcium. Plants are not tolerant of waterlogging or flooding. They prefer a very fertile, free draining, weakly acidic soil but tolerate heavy soil. Cedar wood is a fast-growing and long-lived pioneer species. The plants commence flowering when about 10 - 15 years old. Flowering is annual, but good seed crops only occur every 1 - 2 years. The flowers are visited by bees as a source of nectar for honey production. As the root system is superficial, there is some risk of wind damage and therefore thinning should be executed carefully. As the trees have many low branches and a spreading crown, they are used for shade and as a windbreak in courtyard gardens and in cocoa and coffee plantations.', " +
+                "'The bark has been used for making twine. The heartwood is pale creamy immediately after sawing, turning pinkish-brown upon exposure; it is clearly demarcated from the 3 - 5cm wide band of sapwood. The grain is usually interlocked, sometimes straight or woolly, indicating the presence of tension wood; texture is moderately fine to moderately coarse; the grain pattern is attractive in flat sown boards; when freshly cut, the wood has a distinct onion-like odor which disappears after 2 - 3 days. The wood is light in weight and comparatively soft, the heartwood is rated as moderately durable and moderately resistant to termites, but the sapwood is susceptible to staining and powder post beetles and is not durable. It is easy to work, saws, bores, turns and sands without problems and produces a good finish; it is easy to glue. However, growth stresses may cause severe end splitting of logs and warping and splitting during saw milling. Tests in Samoa showed that the timber can be rotary peeled without pre-treatment with good results, producing attractively patterned veneer; veneer slicing also gave good results. The wood is difficult to treat with preservatives, even by a pressure treatment. A premier timber for furniture, decorative veneer, musical instruments, wooden novelties and doors.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 5, 'Katong matsing', 'Chisocheton pendatus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Chisocheton pentandrus is a shrub or tree that usually grows 3 - 18 meters tall, but exceptionally to 40 meters. The bole has buttresses up to 60cm tall and can be free of branches for up to 10 meters. Oil obtained from the seed is harvested from wild trees for local use as a hair oil.', " +
+                "'Dry to moist lowland forest.', " +
+                "'Not known', " +
+                "'The oil (from the seed.) is used as a hair cosmetic.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 6, 'Kalimutain', 'Dysoxylum arborescens', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Dysoxylum arborescens is a tree that usually grows up to 20 meters tall, though usually less, and can occasionally reach up to 30 meters. The bole can be up to 45cm in diameter, fluted or with buttresses up to 100cm high and 45cm outwards. The tree is the source of a good quality timber, known as jarum-jarum in southeast Asia, that is harvested from the wild for local use and for trade.', " +
+                "'A very common tree of dense primary forests and also the more open secondary growth areas, including that on limestone; at elevations up to 1,500 meters. The tree also presists as a relict in hedgerows and gardens.', " +
+                "'Plants can commence flowering when around 1 meter tall. Most species in this genus are dioecious, but this species generally has bisexual flowers.', " +
+                "'The sapwood is fawnish. The wood is suitable for medium to heavy construction work, planking, flooring, paneling, and for manufacturing high grade furniture, wood pallets, veneer and plywood. We have no more specific information on the wood of this species, but it is one of a group of species that are the source of a commercial timber known in the trade as jarum-jarum.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 7, 'Igyo', 'Dysoxylum goudichaudianum', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Dysoxylum gaudichaudianum is a large canopy tree growing up to 36 metres tall. It has a straight, cylindrical to slightly fluted bole that is up to 80 cm in diameter with buttresses up to 2.5 meters tall. The tree is harvested from the wild for timber and local medicinal use.', " +
+                "'Primary and secondary forest including swamp forest, bamboo woodlands and forests on limestone, at elevations up to 1,800 meters. Well-developed rain forest to 300 meters, but probably at its best in gallery forest on river flats.', " +
+                "'We have no specific information for this species, but most members of the genus are dioecious, in which case both male and female forms need to be grown if fruit and seed are required.', " +
+                "'The bark is antitussive, emetic, emmenagogue and febriguge. A decoction of the fresh bark is used to treat coughs. The finely powdered bark, with water, is used as a safe emetic; combined with wine it is used to promote the flow of menses. The stem bark, combined with the stem bark of Dysoxylum bijugum and Pandanus spp., plus the twigs of Terminalia catappa, is used as a treatment for ciguatera - a type of food poisoning that can be caused by eating fish. The juice of the bark is applied externally as an astringent dressing.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 8, 'Kalibaian', 'Heynea trijuga', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Heynea trijuga is a semideciduous tree usually growing from 5 - 10 meters tall. The tree is harvested from the wild for local use as a source of wood and oil, and possibly also as a medicine.', " +
+                "'Forests in hilly regions; at elevations from 200 - 1,300 meters in southern China. Open areas in hill evergreen forest. ', " +
+                "'A fast-growing tree.', " +
+                "'Oil is obtained from the seed. It is used for illumination. The wood is rather soft. It can be used for general interior carpentry. The wood is of low value and mainly used for fuel.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 9, 'Lansones', 'Lansium domesticum', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Lansium domesticum is an evergreen tree usually growing 10 - 30 meters tall in the wild but generally only 5 - 10 meters in cultivation. The straight, cylindrical bole is irregularly fluted and has steep buttresses that can be 2 meters wide at the base; it can be unbranched for the majority of the trees height and up to 75cm in diameter. The plant is often cultivated, especially in tropical Asia, where it is considered to be one of the best fruits of the Malay region. It is mainly grown as a backyard or garden tree and is commonly sold in local markets.', " +
+                "'Rainforests and humid river valleys. Rain forest, including kerengas and also found on limestone; at elevations up to 110 meters.', " +
+                "'Lansium domesticum is an ultra-tropical plant. It is a tree of tropical lowland forest and even in its native range it cannot be grown at elevations above 650 - 750 meters. The temperature range for growth is reported to be 12 - 40°c with the optimum between 20 - 35°c. It needs a humid atmosphere, plenty of moisture and will not tolerate long dry seasons. The annual rainfall range for growth is reported to be 1,000 - 3,000mm with the optimum between 1,400 - 2,200mm. It can cope with a dry season, if shade and moisture supply are adequate. In Java, for example, the tree grows in areas with 6 - 12 wet months if there is over 100 mm rainfall monthly.', " +
+                "'The peel is reportedly high in tannin. The fresh peel contains 0.2% of a light-yellow volatile oil, from the dried peel, a dark, semi-liquid oleoresin composed of 0.17 % volatile oil and 22% resin is obtained. The dried peel is burned in Java, the aromatic smoke serving as a mosquito repellent and as incense in the rooms of sick people. Wood tar, derived by distillation, is employed to blacken the teeth. The wood is light-brown, medium-hard, fine-grained, tough, elastic and durable, weighing 840 kg/ cu m. It is utilized in Java for house posts, rafters, tool handles and small utensils.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 10, 'Bagalunga', 'Melia dubia Cav.', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'A plant of the tropics, but it can be grown in subtropical and warm temperate climates. The plant is probably not frost tolerant. Prefers a sunny, moist, but well drained position in rich soil. ', " +
+                "'Evergreen forests, savannahs; on sandy soil, limestone, by stream or along roadsides.', " +
+                "'Tree growing 6 to 15 meters high. Bole is straight and cylindrical, without branches up to 10 meters. Leaves are crowded, long-stalked, 30 to 90 centimeters long, usually bipinnate. Leaflets are in 2 to 5 pairs, ovate to ovate-lanceolate, 4 to 8 centimeters long. Panicles in the upper axils are shorter than the leaves, and many flowered. Flowers are numerous, violet and white, fragrant, about 8 millimeters long, borne on the upper axils of the leaves. Petals are hairy. Fruit is drupaceous, ellipsoid, about 1.5 centimeters long, smooth, shining, and yellowish when ripe. Seed is solitary in each cell, pointed smooth and brown.', " +
+                "'The seeds, roots and leaves furnish an indigo-yielding glucoside used for dyeing.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 11, 'Santol', 'Sandoricum kaetjape', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Santol is a large, ornamental evergreen tree with a dense, narrowly oval crown; it usually grows around 25 meters tall but with some specimens up to 50 meters. The bole, which is sometimes straight but often crooked or fluted, is branchless for up to 18 meters, has a diameter up to 100 cm; and buttresses up to 3 meters high. The tree yields an edible fruit that is popular in parts of the tropics. It also has a wide range of traditional medicinal uses and produces a useful timber. It is often cultivated in tropical areas, especially for its edible fruit and as an ornamental in parks, along roads etc.', " +
+                "'Scattered in primary or sometimes secondary rain forest. It also occurs in lowland dipterocarp forest. River banks and wet tropical lowland to elevations of 300 meters.', " +
+                "'Santol is a plant of the hot, wet tropical lowlands, and cannot be grown above 1,000 meters in Java. It flourishes in dry as well as moist areas of the Philippine lowlands.  Large trees can tolerate occasional light frosts. The mean annual rainfall should lie in the range of 950 - 5,000mm, preferably spread through the year but tolerant of a dry season of 2 - 5 months. The temperatures during the hot season is best around 32 - 35°c, in the cold season from 18 - 22°c, but not below 16°c.', " +
+                "'The fragrant wood is used in perfumery. The bark is used for tanning fishing nets. The heartwood is pale red, yellowish-red or yellow-brown with a pink tinge; it can be indistinct or distinguishable from the pale white or pinkish sapwood. The grain is straight or slightly wavy; texture moderately fine to slightly coarse and even. The wood is light to moderate weight; moderately soft to moderately hard; fairly weak to moderately strong. The wood is durable under cover, but non-durable when exposed to the weather or in contact with the ground; it is susceptible to marine borer attack and moderately resistant to insect attack. It is easy to saw; can be planed and finished with good results, though occasionally a little furry; it takes a high polish. The wood is used for making furniture, cabinet work, joinery, interior construction, shop fitting, paneling, planking and decking of boats, scantlings, carving, butlers chopping blocks, packing cases, household and agricultural implements, for production of veneer, plywood, blackboard, pulp and paper. It is used in the construction of traditional houses and boats.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 12, 'Tara-tara', 'Dysoxylum cumingianum', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Dysoxylum oppositifolium is a tree usually growing up to 10 meters tall, though specimens up to 30 meters have been recorded. The bole can be up to 40cm in diameter with buttresses up to 150cm high. The tree is harvested from the wild for its wood, which is used locally and also traded.', " +
+                "'Well developed rain forest on a variety of sites, but tends to be more abundant in drier, more seasonal rain forest; at elevations up to 1,100 meters.', " +
+                "'We have no specific information for this species, but most members of the genus are dioecious, in which case both male and female forms need to be grown if fruit and seed are required.', " +
+                "'A wood with a small quantity of prettily marked heartwood, and a large quantity of yellow sapwood. The grain is close, the wood is fragrant and easily worked. A useful, general purpose timber. The wood is suitable for medium to heavy construction work, planking, flooring, paneling, and for manufacturing high grade furniture, wood pallets, veneer and plywood.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 13, 'Kalantas', 'Toona calantos', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Young trees require some protection from direct sun, but become more light demanding as they grow older.', " +
+                "'Occur at low and medium altitudes in primary forests	.', " +
+                "'Flowering specimens are rare, but the fruits are characterized by the following features Capsules large, (20–)28–40 mm long; columella 24–40 mm long, 7–15 mm broad; valves dark red to red-brown, smooth, 24–41 by 4–14 mm, lenticellate with numerous lenticels (0.1–1 mm diam.), which are often smaller and denser towards the base of the capsule. Seeds (14–)20–32 by 3.2–6 mm, wings unequal with broadly ob- tuse apices; seed body 4.2–10 by 1.5–3 mm.', " +
+                "'In addition to its timber value, bark decoctions are considered to have astrin- gent and antiseptic properties, and are used to clean wounds or for gangrenous ulcers. Flower decoctions are also used as an antispasmodic.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "10, 14, 'Danupra', 'Toona sureni', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'It is composed of only a few species, but phenotypic plasticity and genetic variation are responsible for much of the taxonomic complexity reflected in the literature. The species exhibit a phenomenal range of morphological variation, both within and between trees of the same population, and many of the features used by earlier authors to define their taxa have proved to be only slight morphological variants.', " +
+                "'A canopy tree in primary forest, but is more common in secondary forest, often on riparian hillsides and slopes, at elevations from 700 - 1,700 meters. Open hillsides, occasional in ravines, forests, and woods.', " +
+                "'A plant of tropical climates, it prefers a hot and humid climate and can be found at elevations up to 1,700 meters. It grows best in areas where the, mean annual rainfall can range from 1,120 - 4,000mm, with a uniform distribution during the summer and a dry season lasting 3 - 4 months. The mean temperature of the coolest month ranges from 6 - 18°c, and of the hottest month from 28 - 45°c. It is found in areas where the mean annual temperature is around 22°c.', " +
+                "'The flowers are used to produce red and yellow dyes. The bark and fruits can be used for production of essential oils. Extracts from the bark, heartwood and leaves apparently have insecticidal qualities. Fibers obtained from the bark are used in making string bags. The heartwood is light red or brown; it is distinctly demarcated from the sapwood, which is white, pink, or pale red. The wood is moderately durable but susceptible to dry-termite and borer attack. It is sweetly aromatic when cut, easy to saw and has good woodworking properties; some material tends to produce a wooly finish and it is therefore essential to use sharp tools; mortising, turning, and sanding give moderate results, but boring sometimes gives poor results; gluing and nailing properties are rated as good but the nail-holding strength is moderate. An excellent timber, it is used for high-class cabinet wood, furniture, interior finishing, decorative paneling, crafts, musical instruments, cigar boxes, veneers, boxes and for construction.', " +
                 R.drawable.img_no_resource));
 
     }

@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.pwu.itree.R;
+import com.pwu.itree.data.DatabaseHelper;
+import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.utils.AnimationHelper;
 
 import butterknife.BindView;
@@ -28,9 +30,9 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         ButterKnife.bind(this);
 
-//        DatabaseHelper.testDB(this);
+        DatabaseQueries.testDB(this);
 //        startActivity(new Intent(this, FamilyTreeActivity.class));
-        startAnimations();
+//        startAnimations();
 
     }
 

@@ -18,94 +18,94 @@ public class tree9 {
 
         // 9 - Dipterocarpaceae
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 0, 'Palosapis', 'Anisoptera thurifera', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Anisoptera thurifera is an emergent or large canopy tree with a relatively small but dense crown, that can grow 50 meters tall. The cylindrical bole can be up to 180cm in diameter; it has prominent, thick, rounded, tall straight buttresses. A major timber species in Papua New Guinea, where it is widely exploited and exported.', " +
+                "'An emergent or canopy tree in evergreen and semi-evergreen Dipterocarp forests at elevations below 750 meters. It is common and often gregarious, regenerating in secondary forest.', " +
+                "'A plant of the humid tropics. Young trees in this genus generally grow better in the dappled shade of the forest floor, whilst older trees require more light. This species, however, can readily invade cultivated land, so should be much more tolerant of full sun when small. The resin is collected by chopping into the tree and making a cavity where the oil can collect. Often the cuts extend halfway through the trunk. It is customary to remove the resin every few days and to apply fire to the cuts at frequent intervals. It is reported that the same tree can be tapped for a number of years. ', " +
+                "'The trunk is the source of resinous oil known as Palosapis oil. It is used locally as an illuminant, for varnishing, and for caulking boats.  It has good potential for use in making varnishes. The resin is collected by chopping into the tree and making a cavity where the oil can collect. Often the cuts extend halfway through the trunk. It is customary to remove the resin every few days and to apply fire to the cuts at frequent intervals. It is reported that the same tree can be tapped for a number of years. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 1, 'Dagang', 'Anisoptera aurea', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Anisoptera aurea is a tree that can grow up to 40 meters tall. The bole can be up to 160 cm in diameter. The tree is commonly harvested from the wild for its wood.', " +
+                "'Mixed dipterocarp forests, especially on ridges, at elevations up to 600 meters.', " +
+                "'A plant of lowland areas in the moist tropics, where it can be found at elevations up to 600 meters. It is found in areas where there is no dry season.', " +
+                "'The wood is suitable for general construction, interior finish, ship planking, wooden tanks, tight cooperage and for veneer and plywood. The heartwood is pale yellow or light yellow-brown, sometimes with a pinkish tinge, darkening on exposure; it is not sharply demarcated from the lighter-colored sapwood. The texture is moderately coarse; the grain interlocked; not lustrous; there is no distinctive odor or taste when dry; a silica content ranging from 0.24 to 1.37% is reported. The wood is somewhat durable, being generally classified as moderately resistant to attack by decay fungi and not resistant to termites; the sapwood is particularly vulnerable to powder-post beetles and stain. The wood dries very slowly, particularly the cores of thick stock, with little degrade. It can be worked to a good finish, but there is considerable dulling of cutters due to the silica content; carbide-tipped tools are suggested. The wood is used for purposes such as veneer and plywood, joinery, furniture components, flooring, light construction. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 2, 'Apitong', 'Dipterocarpus grandiflorus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Apitong is a medium sized to large resinous, evergreen tree growing up to 43 meters tall. It has a straight bole that can be branchless for up to 30 meters, and 67cm in diameter. The bole sometimes has a few buttresses that are up to 1.5 meters tall. Substantial amounts of timber and also large quantities of oleo-resin are harvested, both commercially and for local use. Experimental plantations have been established in Java in order to try and save remaining wild populations. Over-exploitation is having a serious effect upon population levels of this species, and the tree has been classified as Critically Endangered in the IUCN Red List of Threatened Species(2009).', " +
+                "'A relict species of the Pleistocene Sundaland, occurring in primary semi-evergreen and evergreen dipterocarp forest. Lowland rainforests. ', " +
+                "'A plant of the lowland tropics where it grows at elevations up to 600 meters. It is found in areas where the mean annual rainfall is in the range 900 - 4,000 mm, and the mean annual temperature is 24 - 28°c. Often found on clay-rich soils in the wild. Young plants need partial shade, older ones grow well in sunny positions. Members of this genus generally only regenerate naturally in the shade of the forest. Seedlings and saplings can persist in dense forest shade for many years. In their first 2 years the young plants cannot tolerate major openings in the canopy, but after they are well established (about 120cm tall) the canopy can be opened up around them to speed up their growth. The tree appears to flower and fruit annually in abundance and with more consistency than any of the other species of the family. It is recommended to plant Paraserianthes falcataria as a source of mycorrhiza and as a shade tree, before transplanting the seedlings. ', " +
+                "'The wood yields large quantities of oleo-resin called balau or minyak keruing. It is used locally as a coat for waterproofing paper, caulking baskets and boats, as a varnish for walls and furniture, in preparation of lithographic ink or, sometimes mixed with the bark of Melaleuca sp., for torches. The resin is obtained by cutting a hole in the trunk near the base (about 90 - 150cm from the ground) and then dipping out the resin with a spoon as it collects there. To prolong the flow, a fire made from dead leaves or brushwood is made in the hole at intervals - these burns off the dried resinous film and allows the resin to flow again. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 3, 'Hagakhak', 'Dipterocarpus validus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Dipterocarpus validus is a tree. The bole is usually buttressed. The tree is a commercial source of keruing timber and is commonly harvested from the wild for local use and trade.The oleo-resin obtained from the trunk is extracted in large quantities. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013). ', " +
+                "'Common and frequently gregarious, in primary and secondary forest; on flat land, fresh water swamp and on river banks; occasionally on low hills; at elevations up to 300 meters. ', " +
+                "'Not known', " +
+                "'An oleo-resin is obtained from the trunk. It is used in large quantities. The oil is obtained by cutting a hole in the trunk near the base (about 90 - 150cm from the ground) and then dipping out the resin with a spoon as it collects there. To prolong the flow, a fire made from dead leaves or brushwood is made in the hole at intervals - this burn off the dried resinous film and allows the resin to flow again. The tree is a source of keruing timbe. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 4, 'Dalingdingan', 'Hopea foxworthyi', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Hopea foxworthyi is a medium-sized evergreen tree. The bole is narrowly buttressed. The tree is harvested from the wild for its wood, which is a good quality construction timber that is used locally and also traded.', " +
+                "'Seasonal semi-evergreen forests, where it is locally common on red sticky volcanic soils along ridges at elevations from 600 - 700 meters. ', " +
+                "'Not known', " +
+                "'The heartwood is a pale straw color, turning rapidly to clear brown on exposure, often with irregular, narrow streaks, which are grass green when just from the saw, but turn to dark greenish brown or nearly black; it is not clearly demarcated from the 4 - 8cm wide band of lighter colored sapwood. The texture is fine to very fine; the grain straight, sometimes a little interlocked; there is a small, but very pretty, silver grain. The wood is moderately heavy to heavy; moderately hard to hard; somewhat durable. The wood seasons well, neither checking nor warping much; once dry it is moderately stable in service. It is easy to work. It is used in construction for items such as posts; beams, joists, rafters; flooring, sheathing and ceilings; it is also used for masts and spars; ship planking and decking; doors; moldings; pestle shafts in rice mills; carriage panels; furniture and cabinetwork; carpenters sawframes. On account of its smooth straight grain and toughness, it should make excellent broom, rake, and hoe handles. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 5, 'Saplungan', 'Hopea plagata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Hopea plagata is a large evergreen tree. The bole is buttressed. This species provides one of the most popular timbers for heavy construction work in the Philippines. It is commonly harvested from the wild for local use and for trade. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'Widespread and common in semi-evergreen seasonal forests, more local in evergreen non-seasonal forests, sometimes on limestone.', " +
+                "'Not known', " +
+                "'The heartwood is pale yellow to light brown darkening very rapidly on exposure, sometimes with narrow, irregular greenish streaks which in drying turn greenish black; it is not clearly demarcated from the 2 - 8cm wide band of lighter-colored sapwood. The texture is fine to very fine; the grain is interlocked; there is a slightly sour odor. The woods is very hard; very heavy; strong, tough and very durable. It seasons slowly, with a low risk of checking but a high risk of distortion; once dry it is moderately stable in service. It can be difficult to work, but saws with a very clean surface. The wood is a high class construction timber that can also be used in cabinet making, tool handles, railway sleepers, paving blocks etc.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 6, 'Bagtikan', 'Parashorea malaanonan', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Parashorea malaanonan is an evergreen tree with a dense, dome-shaped crown; it can grow up to 60 meters tall. The straight, cylindrical bole can be free of branches for up to 30 meters, up to 200cm in diameter, with large, plank-like buttresses up to 4 meters high and spreading out to over 2.5 meters. Used as white seraya timber, the tree is commonly harvested from the wild, furnishing the most important commercial timber of northern Borneo. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'Dense forests; Lowland primary forests; mixed dipterocarp forest on deep, friable clay soils overlying shale, basic and intermediate igneous rocks, at elevations up to 1,300 meters.', " +
+                "'Not known', " +
+                "'The heartwood is pinkish-white to light yellow or light brown, with pink shades, there are more or less frequent white lines from resin canals; it is not clearly demarcated from the 2 - 7cm wide band of whitish sapwood that turns light grey upon drying. The texture is coarse; the grain interlocked; there is no characteristic odor or taste. The wood is light to moderately heavy; soft to moderately hard; not very durable having a small resistance to fungi but susceptible to dry wood borers and termites. It dries at a normal rate with only a slight risk of checking and distortion; once dry it is poorly stable in service. It can be worked with ordinary tools though these need to be kept sharp in order to reduce the risk of tearing and the tendency to woolliness; the interlocked grain produces a broad stripe figure on quartersawn wood; filling is recommended in order to obtain a good finish; nailing and screwing are good; gluing is correct. The wood is used for purposes such as light carpentry, interior paneling and joinery, furniture components, boxes and crates, formwork, veneer etc.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 7, 'Tiaong', 'Shorea ovato', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea ovata is a tree with a hemispherical to cauliflower-shaped crown comprised of many radiating branches; it can grow up to 50 meters tall but is usually smaller. The straight, cylindrical bole can be up to 140cm in diameter with short, stout buttresses up to 100cm high. The tree is a source of timber known as dark red meranti. It is harvested from the wild for commercial use. The plant is classified as Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'A canopy or emergent tree in mixed dipterocarp forest on yellow sandy soil in lowland areas; also in the ecotone to kerangas and in upper dipterocarp forest; at elevations up to 1,000 meters.', " +
+                "'The plant is often found in the wild in Kerangas forest - a type of moist, heath forest found on acidic, sandy soils that are low in nutrients, especially nitrogen. ', " +
+                "'The tree is a source of dark red meranti timber. The heartwood is dark pink-brown to a dark-red, weathering to a dark red-brown; it is clearly demarcated from the sapwood, which is yellowish with a grey tinge. The texture is coarse and even; the grain is interlocked and sometimes wavy; white-colored resin canals may be seen on the surface; planed surfaces are lustrous with a prominent stripe figure. The wood is not durable when exposed to the elements. It is easy to saw, plane, turn, bore and peel; it produces a smooth planed surface. An extremely popular general utility timber, it is suitable for furniture, high class interior finishing, flooring, panelling and partitioning, moldings and skirtings, fancy doors, sliced and rotary cut veneers.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 8, 'Almon', 'Shorea almon', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea almon is a tree with a dense crown; it can grow up to 70 meters tall. The straight, cylindrical bole can be 70 - 150cm in diameter with buttresses up to 2.5 meters high and 2 meters outwards. The tree is harvested from the wild for its wood, which is a source of red meranti timber and is traded internationally. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013). ', " +
+                "'A canopy and emergent tree in mixed dipterocarp forests; growing on undulating land in hills on yellow clay soils over shale; at elevations up to 400 meters. ', " +
+                "'Not known', " +
+                "'The heartwood is pinkish white; it is not clearly demarcated from the 5 - 7cm wide band of sapwood. The texture is medium; the grain interlocked with a ribbon-like aspect on quartersawn wood. The wood is light in weight, soft, moderately durable, being susceptible to fungi, dry wood borers and termites. It seasons well with only a slight risk of checking or distortion; once dry it is stable in service. It works easily with normal tools; nailing and screwing are poor but gluing is correct. The wood has many uses, including for interior and exterior paneling and joinery, light carpentry, furniture etc. It can be used for pulp.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 9, 'Yakal', 'Shorea astylosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea astylosa is a large evergreen tree. The tree is harvested from the wild for its wood, which is a source of red balau timber and is traded internationally. The tree is threatened by destruction of its habitat. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'Lowland evergreen dipterocarp forests.', " +
+                "'Not known', " +
+                "'The tree is a source of red balau timber. he heartwood is light to dark red-brown, or purplish red-brown to grey-brown; it is clearly demarcated from the 3 - 8cm wide band of sapwood. The texture is medium; the grain interlocked. The wood is heavy, hard, moderately durable, being resistant to dry wood borers and moderately resistant to fungi and termites. The wood seasons slowly with a high risk of distortion and checking; once dry it is moderately stable in service. It has a fairly high blunting effect upon tools, power-driven stellite-tipped and tungsten carbite tools are recommended; nailing and screwing are good, but pre-boring is necessary to avoid splitting; gluing is correct for interior purposes. The wood has a variety of uses including light construction, flooring, exterior joinery, musical instruments, boxes and crates etc.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 10, 'White lauan', 'Shorea contorta', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea contorta is an evergreen tree that can grow up to 50 meters tall. The straight bole is usually unbranched for 15 - 20 meters, it can be 60 - 150cm in diameter with buttresse. The tree is commonly harvested from the wild for its wood, which is traded internationally. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'Forests; common in more or less seasonal, evergreen rain forest at elevations up to 700 meters. ', " +
+                "'Not known', " +
+                "'The heartwood is creamy white to pinkish white, becoming light brown with age, sometimes with the presence of white lines; it is not clearly demarcated from the 5 – 9 cm wide band of sapwood. The texture is coarse; the grain straight or interlocked with visible darker silver figures on quartersawn wood. The wood is light in weight, soft, moderately durable, being susceptible to fungi, dry wood borers and termites. The wood seasons well with only a slight risk of checking or distortion; once dry it is moderately stable in service. It can be worked with normal tools, though this need to be kept sharp because there are risks of tearing in edging and a tendency to woolliness; nailing and screwing are poor; gluing is correct. The wood has many uses including for interior joinery and paneling, boxes and crates, plywood, molding.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 11, 'Guijo', 'Shorea guiso', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Red balan is a large tree with a dense crown; it can grow up to 73 meters tall. The straight, cylindrical bole can be free of branches for 15 - 25 meters, up to 112cm in diameter, with prominent buttresses. The tree is harvested from the wild for its resin and for its wood, which is a high class construction timber that is used locally and also traded. The tree is classified as Critically Endangered in the IUCN Red List of Threatened Species(2010). ', " +
+                "'An emergent tree, scattered in lowland forest on red soils, most common in slightly seasonal climates; rare and confined to limestone hills in W. and Central Borneo. ', " +
+                "'A plant of lowland areas in the moist tropics, where it is found at elevations up to 400 meters. Usually found wild on ridges with sandy soils, quite often on limestone as well. ', " +
+                "'A dammar resin, known as huille de bios is obtained from the tree.  It is used for making varnishes and paints. Dammar is a hard resin, obtained from various trees of Southeast Asia. Traditionally, it is used for purposes such as caulking boats and baskets, as an adhesive, a medicine, as a fuel for torches and sometimes in foods. Dammar has many commercial applications, though many of these uses are less important nowadays due to the advent of synthetic materials. Commercially, it is an ingredient of inks, lacquers, oil paints, varnishes etc., and is used as a glazing agent in foods. Harvesting of the resin commences when the bole is around 25cm in diameter (approx 20 years old). Triangular cuts (becoming circular with age) are arranged in vertical rows around the trunk. The cuts are several centimeters wide at first, but become enlarged at every tapping and eventually become holes of 15 - 20cm in depth and width. The average number of holes for a tree about 30 meters tall and 60 - 80cm in diameter is 9 - 11 in each of 4 - 5 vertical rows. For the higher holes, the tapper climbs the tree supported by a rattan belt and using the lower holes as footholds.Red lauan is a large evergreen tree that can grow up to 50 meters tall. It has a prominently buttressed bole that can be branchless for 20 - 30 meters with a diameter of up to 200 cm. The wood is a valuable export timber in the Philippines. It can be grown to stabilize the soil and restore native woodland. The tree is becoming rare in the wild due to habitat loss and overexploitation - it has been classified as Critically Endangered in the IUCN Red List of Threatened Species(2010).', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 12, 'Red lauan', 'Shorea negrosensis', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Red lauan is a large evergreen tree that can grow up to 50 meters tall. It has a prominently buttressed bole that can be branchless for 20 - 30 meters with a diameter of up to 200 cm. The wood is a valuable export timber in the Philippines. It can be grown to stabilize the soil and restore native woodland. The tree is becoming rare in the wild due to habitat loss and overexploitation - it has been classified as Critically Endangered in the IUCN Red List of Threatened Species(2010).', " +
+                "'Occurs gregariously in evergreen and seasonal dipterocarp forests at low altitudes.', " +
+                "'A plant of the moist, lowland tropics where it is found at elevations from sea level to 1,000 meters. It grows in areas where the mean annual rainfall is within the range 1,200 - 2,700mm, and the mean annual temperature can range from 21 - 34°c. ', " +
+                "'The bark contains 9 - 10% tannin. The heartwood is red-brown; it is clearly demarcated from the 5 - 6cm wide band of sapwood. The texture is medium; the grain interlocked with a visible silver figure and the presence of white lines (resin canals); there is a slight luster. The wood ranges from soft to fairly hard; it is of medium weight; moderately durable, being fairly resistant to fungi, dry wood borers and termites. The drying rate is normal to slow, there is a slight risk of distortion or checking, but once dry it is stable in service. The wood works well with normal tools; there is a tendency to tear in planning if tools are not kept sharp; pre-boring is necessary when screwing or nailing; it glues correct. The wood is used in a wide range of applications including interior and exterior paneling, joinery, furniture, cabinetwork, carpentry, flooring, stairs, ship building, boxes and crates, veneer.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 13, 'Mayapis', 'Shorea palosapis', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea palosapis is a large tree. The buttressed bole can be 50 - 130cm in diameter. The tree yields a valuable timber and is commonly harvested from the wild and traded internationally. The plant is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013). ', " +
+                "'Widespread, often abundant, in lowland, evergreen, mixed Dipterocarp forest on fertile well-drained soils at elevations below 300 meters.', " +
+                "'Shorea palosapis is a plant of the lowland tropics, where it is found at elevations below 300 meters in areas with year-round rainfall. Found in the wild in well-drained, fertile soils. ', " +
+                "'The heartwood is pink to light or dark red; it is not clearly differentiated from the 2- 6cm wide band of sapwood. The texture is medium; the grain interlocked, sometimes irregular with a ribbon-like aspect on quartersawn wood. The wood is light in weight, soft, moderately durable, being susceptible to termites and dry wood borers. The drying rate is normal to slow with a high risk of distortion and slight risk of checking, but once dried the wood is stable in service. The wood works well with ordinary tools; gluing is correct but nailing and screwing are poor. The wood is used for purposes such as interior joinery and paneling, furniture, plywood veneer, light carpentry, decking and planking of ships. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "9, 14, 'Tanguile', 'Shorea polysperma', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Shorea polysperma is a large tree. The straight, cylindrical bole is buttressed. The tree is widely exploited from the wild for its wood, which is exported in large quantities. The plant is heavily exploited as the most important red meranti timber in the country. It is classified as Critically Endangered in the IUCN Red List of Threatened Species(2013).', " +
+                "'Hill forest and evergreen, mixed dipterocarp forests.', " +
+                "'Not known', " +
+                "'The heartwood is red-brown; it is clearly demarcated from the 5 – 6 cm wide band of sapwood. The texture is medium; the grain interlocked with a visible silver figure and the presence of white lines (resin canals); there is a slight luster. The wood ranges from soft to fairly hard; it is of medium weight; moderately durable, being fairly resistant to fungi, dry wood borers and termites. The drying rate is normal to slow, there is a slight risk of distortion or checking, but once dry it is stable in service. The wood works well with normal tools; there is a tendency to tear in planning if tools are not kept sharp; pre-boring is necessary when screwing or nailing; it glues correct. The wood is used in a wide range of applications including interior and exterior paneling, joinery, furniture, cabinetwork, carpentry, flooring, stairs, ship building, boxes and crates, veneer.', " +
                 R.drawable.img_no_resource));
 
     }

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.pwu.itree.R;
 import com.pwu.itree.activity.Tree;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -41,7 +42,9 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
 
         holder.tvTree.setText(tree.getScientificName());
         holder.ivTree.setImageResource(tree.getDrawable());
+//        Picasso.get().load(tree.getDrawable()).into(holder.ivTree);
 
+//        holder.ivTree.setVisibility(View.GONE);
         holder.container.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

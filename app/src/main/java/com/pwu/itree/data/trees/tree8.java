@@ -18,94 +18,94 @@ public class tree8 {
 
         // 8 - Moraceae
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 0, 'Antipolo', 'Artocarpus blancoi', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Artocarpus is a genus of some 60 trees of Southeast Asian origin, belong to the family Moraceae. The word Artocarpus is derived from the Greek words artos (bread) and karpos (fruit). It is said Antipolo City, the capital of Rizal, derived its name from the Antipolo tree, at a time when the tree grew in abundance locally.', " +
+                "'Found throughout the Philippines, in thickets and forests, at low and medium altitudes. It is an endemic species.', " +
+                "'Antipolo is a large tree, growing up to 30 meters tall. Its habit, size, and leaf characteristics are similar to Artocarpus altilis (Rimas). Leaves are simple, spirally arranged, with one to three pairs of lobes. Hairy petioles are about 8 centimeters long. Hairy stipules are about 10 centimeters long. Male inflorescence is smooth and cylindric, 5 to 8 centimeters long, flexuous, with spine-like structures. Fruit is ellipsoid, 10 centimeters long, 7 centimeters in diameter, ripening to yellow and orange-brown. Anthocarps are extended into 1-centimeter long, spiculate appendages. Seeds are ellipsoid, about 1 centimeter long, embedded in the fleshy part of the flesh.', " +
+                "'Leaves reportedly used as food by the Ayta people in Porac, Pampanga. Fruits and seeds are cooked and eaten. Decoction of the two-parts bark of antipolo and one-part roots of Fleurya interrupta (Lipang aso) is used for strangularia. Used for carving and light construction. Used as fiber plant for making pulp and paper.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 1, 'Nangka', 'Artocarpus heterophyllus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Jackfruit is a fast-growing evergreen tree with a spreading and irregular crown that can grow up to 25 meters tall, but is usually smaller. The bole, which is usually up to 80 cm in diameter but can reach 200 cm, is usually unbuttered, but can sometimes have small buttresses. A very important multipurpose tree with a wide range of uses, it is particularly valued for its fruit. The tree is widely cultivated in tropical regions, especially Southeast Asia and Brazil, for its edible fruit and seed.  There are many named varieties.', " +
+                "'Dense or open forest, or on its edges, hillside thickets, and pastures.', " +
+                "'A plant of the humid lowland tropics, growing best at an elevation below 1,000 meters, with a mean annual temperature in the range 24 - 28°c, a mean max temperature of 32 - 35°c, a mean minimum temperature of 16 - 20°c, and a mean annual rainfall in the range 900 - 4,000mm evenly distributed through the year. Prefers a climate without a dry season, but can tolerate a short dry season. Jackfruits can grow at higher elevations than the breadfruit and also in cooler and drier climates. They can even succeed in warm temperate areas, but they remain small and any fruit is of poor quality. Trees can bear fruit at latitudes up to 30° from the equator, with good crops up to 25° distant.', " +
+                "'The inner part of the bark or bast is occasionally made into cordage or cloth. The latex obtained from the trunk and branches yields 71.8% resin, consisting of 63.3% fluavilles (yellow) and 8.5% albanes (white). These resins may be valuable in varnishes. The latex is commonly used as adhesive for mending broken chinaware or earthenware, caulking boats, mending holes of buckets and trapping birds. In India and Brazil, the latex serves as a substitute for rubber.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 2, 'Marang banguhan', 'Artocarpus odoratissimus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Marang is an evergreen tree that can grow up to 25 metres tall. The straight, cylinfrical bole is up to 50cm in diameter, sometimes with low buttresses. The fruit is highly valued within the plants native range, and it is commonly gathered from the wild for local use. The tree is also occasionally cultivated in southeast Asia and the Philippines. It has also been introduced into S. America. As one of the most highly praised fruits in the genus, it is puzzling why marang is not widely grown. Low yield and short shelf life offer only a partial explanation, since these features would not deter most home gardeners. In addition, the tree also has local medicinal uses and the wood is sometimes traded as terap timber.', " +
+                "'Secondary forests up to 1,000 meters altitude on sandy clay soils in Thailand. Evergreen forests.', " +
+                "'A plant of lowland humid tropics, succeeding at elevations up to 1,000 meters, it grows best in regions with abundant and equally distributed rainfall. It prefers a deep, well-drained soil. Young plants need some shade, but need increasing light levels as they mature. Trees as young as 4 - 6 years can begin to bear fruit. Yields of 4 - 6 tonnes per hectare have been achieved. The fruits are borne at the end of long flexible branches and ripe fruits are heavy, fragile and difficult to reach for harvest. Mature fruits are usually harvested by hand with the help of a curved knife attached to the end of long bamboo pole. ', " +
+                "'The large leaves are used as thatch, to make partitions in long houses, and for temporary field huts. We have no specific information for this species, but it belongs to a group of species whose timber is known as terap. The general description of terap timber is as follows:  The heartwood is yellow to pale brown; it is usually not differentiated from the sapwood. The texture is moderately coarse to coarse and even; the grain is interlocked. The wood is non-durable under tropical conditions. It seasons fairly slowly, with high shrinkage and slight bowing, cupping and checking. It is generally easy to work; saws well; planes easily but leaves a rough finish on radial surfaces; bores and turns easily, but leaves a rough finish; nailing property is good; can be peeled satisfactorily and is suitable for plywood production. Locally, the wood is used for light construction, for making boxes, crates, wooden pallets and veneer. The wood is sometimes nicely figured and therefore is suitable for decorative purposes like furniture, joinery and paneling.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 3, 'Anubing', 'Artocarpus ovatus', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Artocarpus ovatus is an evergreen tree growing up to 25 meters tall. The bole can be up to 50cm in diameter. Latex with potential for use as a chewing gum base is obtained from the tree, whilst the wood is a source of keledang timber, which is traded.', " +
+                "'Lowland forests and thickets, at elevations up to 750 meters.', " +
+                "'In general, species in this genus prefer a deep, well-drained soil; young plants need some shade, but need increasing light levels as they mature. ', " +
+                "'Latex obtained from the tree is known as Anubing gum. It has been recommended as a base for chewing gums. We have no more specific information for this species, but it is a source of keledang timber, the general description of which follows: The heartwood is yellow-brown to orange-red, darkinging to golden brown; it is clearly demarcated from the 5 - 7cm wide band of sapwood. The texture is coarse; the grain straight or interlocked; there is a lustrous, ribbon-like aspect. The wood is fairly heavy, fairly hard, durable, being moderately resistant to fungi and resistant to termites and dry wood borers. It seasons somewhat slowly with a high risk of distortion and a slight risk of checking; once dry it is moderately stable to stable in service. It has a fairly high blunting effect upon tools, stellite-tipped and tungsten carbide are recommended; the surface is fibrous and filling is recommended; it takes screws and nails poorly; glues correctly. The wood is used for furniture, house building, turnery, light carpentry, interior joinery and panelling, boxes and crates, boats etc.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 4, 'Paper mulberry', 'Broussanetia papyrifera', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Broussonetia papyrifera is a deciduous shrub or small tree with a broad, spreading crown; it usually grows up to 9 meters tall, though in a suitable climate can reach 20 meters or more. The cylindrical bole can be 50 - 70cm in diameter. The tree is widely cultivated in temperate to tropical areas of eastern Asia for the fiber in its bark, there are many named varieties. Products made from the fiber are widely sold, especially in the Pacific Islands. Trees are coppiced annually for this purpose. The plant is also a very popular herbal remedy in the Orient, provides an edible fruit and has a range of other uses.', " +
+                "'Thickets, mountain ravines and forests;  Dry or humid lowland woodland; Open areas, secondary forest, thickets, mountain ravines, along streams in deciduous forest, preferring moisture, at elevations up to 1,600 meters.', " +
+                "'Broussonetia papyrifera is a very adaptable tree. It is found growing in tropical climates at elevations from sea level to about 2,000 meters, but its range also extends well into the temperate zone where mature plants can withstand temperatures down to about -10°c.  It grows best in areas where annual daytime temperatures are within the range 15 - 28°c, but can tolerate 500 - 3,000°c. It prefers a mean annual rainfall in the range 800 - 2,500mm, but tolerates 500 - 3,000mm. Easily cultivated in a warm sunny position in any soil of reasonable quality. A drought resistant species once established, thriving on poor sandy or gravelly soils. ', " +
+                "'A fibre from the bark is of very good quality. It is used in making a very strong and high quality paper, cloth, rope etc. The cloth can be produced by beating strips of bark on a flat surface with a wooden mallet. A very fine cloth can be made in this way, the more the bark is beaten the finer the cloth becomes. Larger sizes can be made by overlapping 2 pieces of bark and beating them together. A leather substitute can also be made from the bark.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 5, 'Panama rubber', 'Castilloa elastica', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Panama rubber tree is a deciduous to evergreen tree with a large, spreading crown, it usually grows from 10 - 30 meters tall but exceptionally to 60 meters. The bole can be 30 - 90cm in diameter, with buttresses forming at the base of large trees. The plant has long been used by local people as a source of latex. At one time it was widely exploited commercially, but was eventually mainly superseded by the rubber tree, Hevea brasiliensis. It is still occasionally cultivated as a crop.', " +
+                "'Openings in moist lowland forest.', " +
+                "'A plant of the moist, lowland tropics, where it is found at elevations up to 500 meters. It grows best in areas where annual daytime temperatures are within the range 23 - 30°c, but can tolerate 15 - 34°c. It can be killed by temperatures of 10°c or lower. It prefers a mean annual rainfall in the range 2,300 - 2,700mm, but tolerates 2,000 - 3,000mm. Grows best in a rich, well-drained soil in a sunny position. Prefers a pH in the range 5 - 6, tolerating 4.5 – 7. Tapping of the trees for their latex can commence 7 years after planting. Plants have become invasive in some areas. ', " +
+                "'Good quality latex can be tapped from the trunk. Produced copiously, trees 8 - 10 years old can yield up to 25kg of latex a year once harvested, the rubbery latex dries to become tough and resilient. The latex can be used commercially, and is also much used by local people who made items such as bouncing balls, waterproofing fabrics, artefacts etc. The latex is often tinted with natural dyes and used to make local handcrafts. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 6, 'Upling gubat', 'Ficus ampelas', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus ampelos is an evergreen, small to medium-sized tree; it usually grows up to 15 meters tall, exceptionally to 20 meters. The bole can be up to 30cm in diameter. The tree is harvested from the wild for local use as a food, medicine and sandpaper substitute.', " +
+                "'Not known', " +
+                "'Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit. The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct.', " +
+                "'The leaves are very rough to the touch and have been used as a substitute for sandpaper.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 7, 'Kataupi', 'Ficus punctata', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus punctata is a large, evergreen climbing shrub. It roots freely from the stems and branches. The plant is sometimes harvested from the wild for local medicinal use.', " +
+                "'Lowland to montane forest, also in villages, coconut plantations and other human-affected habitats; at elevations up to 1,700 meters.', " +
+                "'Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit. The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct.', " +
+                "'Not known', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 8, 'Basikong', 'Ficus botryocarpa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus botryocarpa is a laxly branched tree growing up to 14 meters tall. The tree is sometimes harvested from the wild for local use as a food and medicine.', " +
+                "'Lowland to montane forest, in both dense primary forest and secondary formations, often by riversides; at elevations up to 1,700 meters.', " +
+                "'The varieties Ficus botryocarpa linearifolia and subalbidoramea have larger fruits than the type species. Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit. The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct.', " +
+                "'Not known', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 9, 'Kalukoi', 'Ficus callosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus callosa is a tree that can grow 25 - 35 meters tall, exceptionally to 45 meters. The straight bole becomes buttressed in older trees; it can be 25 - 35cm in diameter. The tree is harvested from the wild for local use as a food and source of wood and fiber. It is sometimes cultivated.', " +
+                "'Forests and forest margins at elevations from 600 - 800 meters.', " +
+                "'Not known', " +
+                "'The fibrous bark is used for making cloth. The yellow-grey wood has numerous darker colored lines or streaks. It is very light in weight yet relatively strong. The fine wood is often used for making furniture, and is also used for boxes, ply etc. It is a possible substitute for Indian balsa (Sterculia spp.).', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 10, 'Indian rubber', 'Ficus elastica', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Rubber plant is a large, evergreen tree, growing up to 55 meters tall with abundant aerial roots from the trunk and the main branches which do not thicken to form pillar roots. The plant often begins life as an epiphyte, growing in the branch of another tree; as it grows older it sends down aerial roots which, when they reach the ground quickly form roots and become much thicker and more vigorous. They supply nutrients to the fig, allowing it to grow faster than the host tree. The aerial roots gradually encircle the host tree, preventing its main trunk from expanding, whilst at the same time the foliage smothers the foliage of the host. Eventually the host dies, leaving the fig to carry on growing without competition.', " +
+                "'Hill forest, particularly on cliffs and limestone hills.', " +
+                "'A plant of the dry to moist tropics, where it is found at elevations up to 1,650 meters. It grows best in areas where annual daytime temperatures are within the range 20 - 30°c, but can tolerate 10 - 36°c. It can be killed by temperatures of -1°c or lower. It prefers a mean annual rainfall in the range 600 - 1,000mm, but tolerates 300 - 2,800mm. The yield of individual trees in plantations of Ficus elastica can vary very widely, the highest attains 30 times more than the lowest. The yield of the first harvest is directly influenced by the circumference of the tree and the horizontal length of the incision. A tree of 1.8 meters in diameter yielded 15 kg rubber; the average yields in three consecutive years of 50 wild trees measuring 34 meters tall and 5.7 m in diameter (aerial roots included) were 4, 1.9 and 0.4 kg/tree respectively.', " +
+                "'Latex is obtained from the bark of the stem and larger branches. This can be used for all applications of natural rubber, such as tyres, rubber components for cars and machines and consumer products such as footwear, sport goods, toys and gloves. Traditionally, the latex is used to line baskets of split rattan, to make them watertight, and has sundry other applications. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 11, 'Kanapal', 'Ficus magnoliifolia', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus magnoliifolia is a tree with a rather narrow crown that can grow as tall as 45 meters. The bole is up to 80cm in diameter with prominent plank buttresses up to 2 meters high. The tree is harvested from the wild for local use as a source of low quality wood.', " +
+                "'Lowland and submontane forest.', " +
+                "'Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally defendant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit. The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct. ', " +
+                "'The wood is of low quality, but is used for temporary construction, mouldings, interior work, fruits crates etc. The wood is used for fuel. ', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 12, 'Tibig', '(Ficus nota', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus nota is an erect shrub or tree with a wide-spreading crown; it can grow 4 - 8 meters tall, occasionally to 13 meters. The bole is often crooked and branching from low down, it can be 20cm or more in diameter and is often shortly buttressed. The tree has prominent protuberances on the trunk and larger branches where inflorescences are borne. The tree is harvested from the wild for local use as a food and source of drinking water.', " +
+                "'Ficus nota is an erect shrub or tree with a wide-spreading crown; it can grow 4 - 8 meters tall, occasionally to 13 meters. The bole is often crooked and branching from low down, it can be 20cm or more in diameter and is often shortly buttressed. The tree has prominent protuberances on the trunk and larger branches where inflorescences are borne. The tree is harvested from the wild for local use as a food and source of drinking water.', " +
+                "'Plants can survive occasional light frosts, but the young shoots are often damaged, leading to the plant becoming more shrub-like. Succeeds in full sun or light shade. Succeeds in a variety of soils in areas with high humidity. The tree is grown as an ornamental in gardens. There is a danger of it becoming invasive if the fig wasps (which are essential for fertilization) are introduced to areas where it is grown ornamentally. The seeds are easily carried by water and adhere to clothing or to animals and so are easily spread into wild area. Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit.', " +
+                "'Fruit – raw; Soft and fleshy; Sugar and cream is sometimes added. The yellowish, subglobose fruit is 20 - 40mm in diameter. The stems contain drinkable water.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 13, 'Pakiling', '(Ficus nota', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Pakiling is a small tree reaching a height of nine meters, with young hispidous, greenish branchlets. Leaves are simple, alternate, oblong or broadly ovate and rounded, 16 to 20 centimeters long, 6 to 8 centimeters wide, acuminate at the apex, cordately inequilateral, margins toothed, lateral veins 6 to 8 pairs, prominent underneath, base penta- to octa-veined, venation semi-craspedodromous. Young branches are greenish, pubescent, petiole 1.0 to 1.2 centimeters long.', " +
+                "'Drier parts of the evergreen forest and in secondary jungle.', " +
+                "'Tree up to 8 m tall. Branchlets drying brown. Internal hairs abundant. Leaves distichous, stipules semi-amplexicaul, 0.7-1 cm long, whitish (minutely) puberulous on the keel and ciliolate or subglabrous, caducous (or subpersistent). ', " +
+                "'Used in the treatment of allergy, asthma, diarrhea, diabetes, tumor and cancer. Commonly used by the Aetas of Bataan for treatment of various ailments.', " +
                 R.drawable.img_no_resource));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "8, 14, 'Dungo', 'Ficus nervosa', " +
-                "'description', " + 
-                "'habitat', " +
-                "'cultivationDetails', " +
-                "'otherUSage', " +
+                "'Ficus nervosa is an evergreen tree growing up to 35 meters tall. The bole is buttressed. The tree is grown to provide shade in coffee plantations in Sri Lanka. ', " +
+                "'A canopy tree in evergreen forests in mountains at elevations from 400 - 1,600 meters in southern China.', " +
+                "'Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totally dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit. The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct.', " +
+                "'Not known', " +
                 R.drawable.img_no_resource));
 
     }
