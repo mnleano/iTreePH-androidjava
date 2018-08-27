@@ -42,9 +42,6 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
 
         holder.tvTree.setText(tree.getScientificName());
         holder.ivTree.setImageResource(tree.getDrawable());
-//        Picasso.get().load(tree.getDrawable()).into(holder.ivTree);
-
-//        holder.ivTree.setVisibility(View.GONE);
         holder.container.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
