@@ -90,12 +90,12 @@ public class tree14 {
                 "'A moderately fast growing plant. The plant can be pruned and pollarded.', " +
                 "'The wood is used to make tool handles. The wood is used for fuel and for charcoal production.', " +
                 R.drawable.tree_lamiaceae_dangula));
-        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "14, 12, 'Dangula', 'Callicarpa formosana', " +
+        db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "14, 12, 'Tambasi', 'Callicarpa formosana', " +
                 "'Callicarpa pedunculata is an evergreen shrub or small tree growing occasionally to 6 meters tall, but usually rather smaller. The plant is harvested from the wild by local people for its use in traditional medicine.', " +
                 "'Forest margins and grasslands, from sea-level up to 2,000 meters. Thickets, roadsides and secondary forest at elevations from sea-level up to 2,300 meters.', " +
                 "'Plants are likely to succeed in warm temperate to tropical zones. Requires a sunny position or light dappled shade. Prefers a highly fertile well-drained loamy soil. Requires cross-pollination for good fruit production. Plants in this genus are notably resistant to honey fungus.', " +
                 "'Not known', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_lamiaceae_tambabasi));
         db.execSQL(insertQuery(TBL_TREES, TBL_TREES_ROW, "14, 13, 'Pay-at', 'Cleodendrum macrostegium', " +
                 "'Clerodendrum mandarinorum is a shrub or a tree that can grow from 2 - 20 meters tall. The plant is harvested from the wild for local use as a medicine. ', " +
                 "'Thickets along streams and roadsides; at elevations from 300 - 2,200 meters.', " +

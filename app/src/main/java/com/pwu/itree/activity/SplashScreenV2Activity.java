@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.pwu.itree.R;
-import com.pwu.itree.data.DatabaseQueries;
 
 public class SplashScreenV2Activity extends BaseActivity {
 
@@ -13,7 +12,6 @@ public class SplashScreenV2Activity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen_v2);
-
 
 //        DatabaseQueries.testDB(this);
         new Handler().postDelayed(new Runnable() {

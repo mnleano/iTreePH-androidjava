@@ -39,7 +39,6 @@ public class MenuActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
-
     }
 
     @Override
@@ -59,7 +58,6 @@ public class MenuActivity extends BaseActivity {
                 hideSubMenu();
                 break;
             case R.id.settings:
-//                App.getInstance().setNightMode(true);
                 DialogBuilder.themeChangeDialog(this, true);
                 hideSubMenu();
                 break;
