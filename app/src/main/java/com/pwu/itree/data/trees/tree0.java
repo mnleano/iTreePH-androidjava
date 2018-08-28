@@ -19,21 +19,21 @@ public class tree0 {
                 "'Grassland and open Brachystegia and mopane woodland at elevations from 200 - 1,600 meters. Dry thickets and marshy meadows on river banks. ', " +
                 "'Alocasia zebrina is a terrarium plant of exotic indoor plant. Ideal temperatures are between 20 and 30 degrees Celsius. Lower temperatures can be sustained, but the growth will be more compact. This zebra plant Alocasia zebrina likes moist soil and high humidity. We advise: water well, spray regularly, place in normal potting soil and give it some liquid plant nutrition from time to time. The symbols below also provide additional information on caring for the Alocasia zebrina. ', " +
                 "'The roots are one of the main dyes for the Hyphaene palm fibers used in basketry weaving in southern Africa, giving a golden-yellow color to the fibers. They have also been adopted for wool dyeing by Europeans, who introduced the use of metallic mordants such as alum to obtain more intense, fast colors. '," +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_alocasiazebrina));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 1, 'Devils tongue', 'Amorphophophallus konjac', " +
                 "'Konjac is a common name of the Asian plant Amorphophallus konjac (syn. A. rivieri), which has an edible corm (bulbo-tuber). It is also known as konjaku, konnyaku potato, devils tongue, voodoo lily, snake palm, or elephant yam(though this name is also used for A. paeoniifolius). It is native to Yunnan in China and cultivated in warm subtropical to tropical eastern Asia, from Japan and China south to Indonesia (USDA hardiness zone 6-11). It is a perennial plant, growing from a large corm up to 25 cm (10 in) in diameter. The single leaf is up to 1.3 m (4 ft) across, bipinnate, and divided into numerous leaflets.  The flowers are produced on a spathe enclosed by a dark purple spadix up to 55 cm (22 in) long. The food made from the corm of this plant is widely known in English by its Japanese name, konnyaku (yam cake), being cooked and consumed primarily in Japan. The two basic types of cake are white and black. Noodles are made from konnyaku, known as shirataki.', " +
                 "'Loose leafy detritus in moist shady habitats. Forest margins and thickets at elevations of 830 - 1,200 meters in western Yunnan. ', " +
                 "'Plants can tolerate a minimum temperature of 15°c during the growing season, though the optimum range is 20 - 25°c. The best crops are produced on deep, fertile, alluvial soils that are slightly acid. Dislikes heavy clay soils. Plants require some shade, especially when young. Members of this genus generally require a moist but well-drained, humus-rich, fertile soil and a position in dappled shade. The plant produces one enormous leaf and one flowering stem annually. When ripe for pollination, the flowers have a foetid smell to attract carrion flies and midges. This smell disappears once the flower has been pollinated. The tubers are planted 15cm deep. Like many species in the family Araceae, this plant has the ability to heat the flowering spadix as the pollen becomes ready for fertilization. This heat greatly increases the strength of the aroma released by the plant, thus attracting more pollinating insects. It can also have the effect of making the insects more active, thus increasing the level of fertilization. ', " +
                 "'The plant has insecticidal properties. Glucomannan, obtained from the tuber, has a wide range of used in various industries. It has gelling and film-forming properties and is widely used as an emulsifier and stabilizer in foods, drinks, cosmetics and the pharmaceutical industry. It is also used as a non-clay drilling fluid in the diamond and oil industries. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_amorphophalluskonjac));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 2, 'Lusegut', 'Amydrium medium', " +
                 "'Slender bole climber exhibiting leaf dimorphism - leaves of seedlings or juvenile plants differ from those of the adult plants; adult foliage often developing only when the vine has found support on a tree trunk. Leaves greyish green to green, ovate, leaf blade entire or dissected, often with perforations; both types of leaves often present on the same vine. Leaves green to dark green, deeply leaf blade with perforations along rachis. Its singly borne, erect spadix is 3â€“6 by 1.5 cm, enclosed within an about 5 cm-long, white spathe that reflexes and shedsb. ', " +
                 "'It grows in primary lowland rainforests. It occurs locally in forests at Bukit Timah Nature Reserve, Rifle Range Road, and Singapore Botanic Gardens Rain Forest. ', " +
                 "'It can be propagated by seeds and stem cuttings. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_amydriummedium));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 3, 'Corazon de Maria', 'Caladium bicalor)', " +
                 "'Caladium is a genus of flowering plants in the family tree0. They are often known by the common name elephant ear (which they share with the closely related genera Alocasia, Colocasia, and Xanthosoma), Heart of Jesus, and Angel Wings. There are over 1000 named cultivars of Caladium bicolor from the original South American plant.\n" +
@@ -41,82 +41,82 @@ public class tree0 {
                 "'Shady positions in moist, fertile soils. ', " +
                 "'A plant of lowland to moderate elevations in moist tropical areas. Prefers a moist, fertile, humus-rich, acidic soil in part shade or filtered sun. Grows well in bright shade, but avoid direct sun where the leaves will scorch Plants dislike dry conditions when in active growth. Requires a position sheltered from strong winds. The plant is present on many Pacific Islands and has the potential to become a weed. Like many species in the family Araceae, this plant has the ability to heat the flowering spadix as the pollen becomes ready for fertilization. This heat greatly increases the strength of the aroma released by the plant, thus attracting more pollinating insects. It can also have the effect of making the insects more active, thus increasing the level of fertilization. A dioecious species, both male and female forms need to be grown if fruit and seed are required. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_caladiumbicolor));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 4, 'Dumb cane', 'Dieffenbachia amoena', " +
                 "'Dieffenbachia amoena are highly decorative foliage plants, that grows up to 1m (3 feet) tall indoors. Their thick, cane-like and unbranched stems carry rather soft and fleshy leaves on sturdy, sheathed stalks. Dieffenbachia seguine has oval leaves 25cm (10 inch) long and 10cm (4 inch) wide on 10cm (4 inch) long stalks. The leaves generally spread outward and arch slightly downward.  They are interestingly marked in green, yellow and white. As it age, some of the lower leaves dry up and fall off or may be pulled off leaving behind a scarred stem, which gradually lengthens. But the bare stem is likely to be at least partially hidden by the thick crown of downward arching leaves. Calla-type flowers followed by red berries rarely appear on indoor plants. ', " +
                 "'The plant prefers bright to medium light and high humidity due to its normal habit of growing in tropical rain forests. It will grow in almost full sunlight once acclimated, but for best growth give it a bit of subdued light. ', " +
                 "'Hardy plants that require little maintenance. They prefer bright filtered light but are able to tolerate dark conditions, however, variegation may be lost if they are kept in the shade for prolonged periods. Prefer slightly acidic, moist soil. Soil high in coco peat is ideal. Soil should be allowed to dry slightly before watering. ', " +
                 "'Dieffenbachia amoena is an easy to maintain plant which add beauty and style to courtyards, patios and verandahs. Provides green life to indoors and helps to freshen the air of your home. It is cultivated as an ornamental plant in temperate shade gardens and as a potted house plant. The Dieffenbachia amoena has a dramatic growth in a greenhouse. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_dieffenbachiaamoena));
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 5, 'Amiong', 'Epipremnum pinnatum', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 5, 'Amiong', 'Epipremnum elegans', " +
                 "'Epipremnum elegans is a climbing plant, sometimes epiphytic. A vigorous plant, capable of producing stems 30 - 50 meters long, it can grow high into the canopy of trees with a stem 2 - 4cm in diameter that can attach itself by means of aerial roots. The plant is often harvested from the wild for local medicinal use and is also sometimes cultivated for this purpose. The leaves are regularly sold in local markets, especially in Singapore, for medicinal use. The plant is often grown as an ornamental, valued especially for its attractive pinnatifid adult leaves.', " +
                 "'Found on a wide range of soils from calcium-rich clay, red soils to sand, in habitats ranging from rather open old forest, secondary growth, dry grassy fields to cattle ground, and rice fallow at elevations up to 600 meters, occ to 1,600 meters. ', " +
                 "'This species has a symbiotic relationship with certain soil bacteria; these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_epipremnumelegans));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 6, 'Tibatib', 'Epipremnum pinnatum', " +
                 "'Epipremnum Pinnatum is a stout vine climbing on tree trunks, reaching a height of 5 to 6 meters. Leaves are oblong-ovate, up to 60 centimeters long, pinnately cleft almost to the midrib into 7 to 12 pairs of lanceolate, acuminate, falcate, 1-nerved lobes, 12 to 20 centimeters long, 2 to 5 centimeters wide. Spathes are several, terminal, white or greenish, in flower about 15 centimeters long and deciduous. Spadix is green, dense, cylindric, nearly or as long as the spathe, 2 to 2.5 centimeters thick in flower, thicker in fruit. Fruit is a greenish berry with a few seeds embedded in an orange-red pulp.', " +
                 "'A hemiepiphytic vine, climbing on the trunks of trees and into the forest canopy, primarily in disturbed areas and along roadsides; at elevations up to 350 meters. ', " +
                 "'Often grown as an ornamental, the plant has escaped from cultivation and has invaded native habitats in many areas. In Singapore this species is referred to by the Chinese inhabitants as Long Wei Cao, literally Dragon Tail Plant. The lower flowers in the spadix are female, the rest are bisexual. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_epipremnumpinnatum));
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 7, 'Alopayi', 'Homolomena philippinensis', " +
                 "'Homalomena philippinensis is a perennial plant producing clusters of large, heart-shaped leaves from an underground corm. The plant grows about 1 meter tall. The large leaves are gathered from the wild and used for wrapping food. The plant also has local medicinal uses.', " +
                 "'Wet, black, humus covered soil of thickets and woods at elevations around 300 meters. Along small streams in primary forests at low elevations in the Philippines. ', " +
                 "'The base of the petioles, when pulled off, has a very sweet chewing-gum odour especially when the tissues are crushed. ', " +
                 "'The large leaves are used for wrapping food. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_homalomenaphilippinensis));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 8, 'Pakpak paniki', 'Philodendron lacerum', " +
                 "'Can grow as an epiphyte or hemiepiphyte climber, succulent and vigorously growing. Multi-lobed leaf margins, leaf blade can measure up to 50 cm long and 20 cm wide. Spathe dull red on the outside and purple on the inside, blade green-yellow.', " +
                 "'Most occur in humid tropical forests, but can also be found in swamps and on river banks, roadsides and rock outcrops. ', " +
                 "'Most Philodendrons are native to the jungles of tropical America, and as such, prefer the medium light intensity they would have on the jungle floor. They will tolerate low light, but if there is too little light, the new leaves will develop smaller, and farther apart on the stem. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_philodendronlacerum));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 9, 'Bolong kahinal', 'Photoidium lobbianum', " +
                 "'Pothoidium lobbianum is a climbing shrub. The plant is harvested from the wild for its fiber, which is used locally. The fiber is sometimes sold in considerable quantities in local markets in the Philippines. Although no specific mention has been seen for this species, it belongs to a family where most of the members contain calcium oxalate crystals. This substance is toxic fresh and, if eaten, makes the mouth, tongue and throat feel as if hundreds of small needles are digging in to them. However, calcium oxalate is easily broken down either by thoroughly cooking the plant or by fully drying it and, in either of these states, it is safe to eat the plant.', " +
                 "'Primary forests at low and medium elevations. ', " +
                 "'Although the flowers are bisexual, they are functionally dioecious. Therefore, more than one plant needs to be grown if seed is required. ', " +
                 "'The plant is a source of fiber. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_photoidiumlobbianum));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 10, 'Dugtong-ahas', 'Photos hermaphroditus', " +
                 "'Dugtong-ahas is a woody vine. Leaves are oblong or obovate-lanceolate, 7 to 10 centimeters long, pointed at both ends. Flowers are small, white and clustered. Fruit is very long and slender, 15 to 20 centimeters in length, smooth, very narrowed between seeds. Seeds are about a centimeter long, sharply pointed at one end and crowned on the other end with numerous white hairs about 2.5 centimeters long.', " +
                 "'Common in thickets and open forests at low and medium altitudes. ', " +
                 "'Not known. ', " +
                 "'Tagulauai oil is valued as a cicatrizant to prepare, macerate the bark in coconut oil. Balsamo de Tagulaway or Balsamo de Cebu is prepared by cooking the root-bark and branches of Parameria barbata in coconut oil to form a yellowish-white oily liquid which is used for skin disease and wounds. Bark fiber used for making rope. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_photoshermaphrodite));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 11, 'Yellow water plant', 'Scindapsus aureus', " +
                 "'Scindapsus aureus â€˜Marble Queenâ€™ has large, glossy, heart-shaped leaves of green marbled with cream, are a feature if this indoor plant. Train up a totem pole or grow in a hanging basket or decorative pot to best display its attractive foliage. The leathery, shiny-surface, hart-shaped leaves are arranged alternately on 5-8cm (2-3 inch) long leaf-stalks. Flowers are not produced indoors. Scindapsus aureus â€˜Marble Queenâ€™ is closely related to heart-leaf philodendron, which it resembles. Scindapsus aureus â€˜Marble Queenâ€™ can be trained to grow upright on stales, wires or strings. they also can be encouraged to use their aerial roots to support themselves on stabs of rough tree bark as long as the bark is kept constantly moist. Or they can trail down from either, pots or hanging baskets.', " +
                 "'The species have become naturalized in tropical and sub-tropical forests worldwide, where it has caused severe ecological damage in some cases. Scindapsus aureus can become a highly invasive species when introduced into tropical countries where it is not native. Having no natural enemies, it completely overgrows the forest floor as well as the trunks of trees, causing severe ecological disruption. ', " +
                 "'Scindapsus aureus ‘Marble Queen’ is a very easy plant to grow and as long as certain instructions are followed, this pretty plant will grow quickly and provide the rooms with a colorful leaf display. Best grown in warm spot protected from droughts. Keep moist but not wet and apply liquid fertilizer during the growing season for lush new growth. ', " +
                 "'Scindapsus aureus ‘Marble Queen’ as a tropical vine with variegated foliage and vigorous growth is used as indoor planters or greenhouse plant. Scindapsus aureus ‘Marble Queen’ is ideal plant for offices, shopping centers, hotels and other public areas because easy maintenance and relative reduced light requirements and because they are efficient at removing indoor pollutants. This plant is ideal equally as homeplant in a hanging basket, climbing a plant pole, or spilling over the edge of a table or shelf. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_scindapsusaureus));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 12, 'Kamay kastila', 'Syngonium podophyllum', " +
                 "'Syngonium podophyllum is an evergreen climbing plant producing stems 10 - 20 meters long that support themselve on tree trunks by means of adventitious roots. The leaves vary greatly as the plant ages. When young they have the shape of an arrowhead, but as they mature this changes and lobes develop at the base of the leaves. The older the plant is, the more lobes the full-sized leaves will have. The plant is harvested from the wild for local use as a medicine. It is often grown as an ornamental and ground cover plant in tropical gardens, being valued for its attractive flowers and foliage, and also as a houseplant in cooler areas, where it seldom flowers. Forms with variegated foliage have been developed as ornamentals.', " +
                 "'Dense primary forest and more open areas of secondary growth. ', " +
                 "'Grows best in partial shade, succeeding also in deep shade. Prefers a fairly fertile, moist but well-drained soil. Succeeds in most soil types and textures from clays to sandy loams and from acid to slightly alkaline. The plant is commonly grown as an ornamental in the tropics and has sometimes escaped from cultivation and become naturalized. Every part of the stem, even short sections, can produce roots and grow into a new plant making it very difficult to eradicate. There are at least two reports (from the islands of Hawaii and Niue) of the plant becoming invasive and it is a controlled species in parts of mainland USA. ', " +
                 "'This is one of the species studied in a trial and found effective in helping to remove indoor air pollutants. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_syngoniumpodophyllum));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 13, 'Gabing nuno', 'Typhonium trilobatum', " +
                 "'Typhonium angustilobum is a herbaceous perennial plant producing leaves up to 40cm long from a tuberous rootstock. Although poisonous, the root was a traditional food of the Australian Aborigines - it is little used nowadays.', " +
                 "'Rainforest margins, moist gullies. ', " +
                 "'The flowering plant has a strong, unpleasant smell reminiscent of faeces. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_typhoniumtrilobatum));
 
         db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 14, 'Yautia', 'Xanthosoma violaceum', " +
                 "'Is a perennial plant producing arrow-shaped leaves from a short, thick underground rhizome. The leaves are 20 - 50cm long on petioles 30 - 70cm long. The plant is often cultivated for its edible roots and leaves in parts of the tropics. All parts of the plant contain calcium oxalate crystals. This substance is toxic fresh and, if eaten, makes the mouth, tongue and throat feel as if hundreds of small needles are digging in to them. However, calcium oxalate is easily broken down either by thoroughly cooking the plant or by fully drying it and, in either of these states, it is safe to eat the plant. People with a tendency to rheumatism, arthritis, gout, kidney stones and hyperacidity should take especial caution if including this plant in their diet.', " +
                 "'Moist or wet thickets or forest, at elevations below 1,900 meters. ', " +
                 "'A plant of the moister tropics, preferring an annual rainfall in the region 1,000 - 1,500mm. Succeeds in full sun or light shade, requiring high levels of organic matter in the soil. Prefers a pH in the range 5.5 - 6.5. Like many species in the family Araceae, this plant has the ability to heat the flowering spadix as the pollen becomes ready for fertilization. This heat greatly increases the strength of the aroma released by the plant, thus attracting more pollinating insects. It can also have the effect of making the insects more active, thus increasing the level of fertilization. ', " +
                 "'None known. ', " +
-                R.drawable.img_no_resource));
+                R.drawable.tree_araceae_xanthosomaviolaceum));
     }
 }

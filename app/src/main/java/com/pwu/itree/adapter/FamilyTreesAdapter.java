@@ -23,7 +23,6 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
     List<Tree> trees;
     OnItemClickListener listener;
 
-
     public FamilyTreesAdapter(List<Tree> trees, OnItemClickListener listener) {
         this.trees = trees;
         this.listener = listener;
