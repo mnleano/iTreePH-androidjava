@@ -11,6 +11,7 @@
     <include layout="@layout/toolbar" />
 
     <TextView
+        android:id="@+id/tvScore"
         android:layout_width="112dp"
         android:layout_height="wrap_content"
         android:layout_gravity="end"

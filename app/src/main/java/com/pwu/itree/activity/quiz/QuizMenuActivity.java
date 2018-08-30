@@ -44,6 +44,7 @@ public class QuizMenuActivity extends BaseActivity {
                 startActivity(new Intent(QuizMenuActivity.this, QuizActivity.class));
                 break;
             case R.id.btnHighScore:
+                startActivity(new Intent(QuizMenuActivity.this, QuizScoreActivity.class));
                 break;
         }
     }

@@ -18,13 +18,13 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "onCreate");
+        // Log.d(TAG, "onCreate");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "onResume");
+        // Log.d(TAG, "onResume");
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         if (EZSharedPreferences.isNightModeEnabled(this)) {
@@ -40,7 +40,7 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG, "onPause");
+        // Log.d(TAG, "onPause");
     }
 
     public void setSupportActionBar(Toolbar toolbar, boolean showAsUp) {

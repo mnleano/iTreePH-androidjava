@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="3"
+        android:background="?tilesBackground"
+        android:padding="8dp"
+        android:text="Name"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/textSizeHeader" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="?tilesBackground"
+        android:padding="8dp"
+        android:text="Score"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/textSizeHeader" />
+</LinearLayout>

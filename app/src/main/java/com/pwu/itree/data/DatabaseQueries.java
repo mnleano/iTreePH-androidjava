@@ -1,10 +1,12 @@
 package com.pwu.itree.data;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.pwu.itree.model.GameScore;
 import com.pwu.itree.model.Tree;
 
 import java.util.ArrayList;
@@ -121,6 +123,23 @@ public class DatabaseQueries {
 //            logString = "description: " + description;
             Log.d(TAG, logString);
         }
+    }
+
+    public static void addScore(Context ctx, GameScore score) {
+        ContentValues values = new ContentValues();
+        values.put("name", score.getName());
+        values.put("score", score.getScore());
+        getWritableSQL(ctx).insert("TBL_SCORES", null, values);
+        getWritableSQL(ctx).close();
+    }
+
+    public static List<GameScore> getHighScore(Context ctx) {
+
+        List<GameScore> scores = new ArrayList<>();
+        Cursor cursor = getReadableSQL(ctx).query("TBL_SCORES", null, null, null, null, null, "score DESC");
+        while (cursor.moveToNext())
+            scores.add(new GameScore(cursor.getString(0), cursor.getInt(1)));
+        return scores;
     }
 
 
