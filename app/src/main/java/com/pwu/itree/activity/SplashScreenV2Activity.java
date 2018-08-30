@@ -11,6 +11,12 @@ public class SplashScreenV2Activity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         setContentView(R.layout.activity_splashscreen_v2);
 
 //        DatabaseQueries.testDB(this);

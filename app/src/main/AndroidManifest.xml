@@ -9,25 +9,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
-        <activity android:name=".activity.SplashActivity">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
         <activity
             android:name=".activity.MenuActivity"
             android:configChanges="keyboardHidden|screenSize" />
-        <activity
-            android:name=".activity.TreesActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity
-            android:name=".activity.FamilyTreeActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity android:name=".activity.LandingActivity" />
         <activity android:name=".activity.SplashScreenV2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,13 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity" />
-        <activity
-            android:name=".activity.Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/LightTheme" />
         <activity android:name=".activity.BaseActivity" />
-        <activity android:name=".activity.TreesV2Activity"></activity>
+        <activity android:name=".activity.tree.TreesV2Activity" />
+        <activity android:name=".activity.SettingsActivity" />
+        <activity android:name=".activity.tree.SingleTreeActivity" />
+        <activity
+            android:name=".activity.quiz.QuizMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.quiz.QuizActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

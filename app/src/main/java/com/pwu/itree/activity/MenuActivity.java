@@ -1,12 +1,14 @@
 package com.pwu.itree.activity;
 
 import android.content.Intent;
-import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.pwu.itree.R;
+import com.pwu.itree.activity.quiz.QuizMenuActivity;
+import com.pwu.itree.activity.tree.TreesV2Activity;
 import com.pwu.itree.builder.DialogBuilder;
 
 import butterknife.BindView;
@@ -15,6 +17,7 @@ import butterknife.OnClick;
 
 public class MenuActivity extends BaseActivity {
 
+    private String TAG = "TAG_MenuActivity";
 
     @BindView(R.id.center)
     View center;
@@ -33,12 +36,19 @@ public class MenuActivity extends BaseActivity {
     @BindView(R.id.fabMenu)
     ImageView fabMenu;
 
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume");
+
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause");
     }
 
     @Override
@@ -53,16 +63,17 @@ public class MenuActivity extends BaseActivity {
                 startActivity(new Intent(this, TreesV2Activity.class));
                 break;
             case R.id.quiz:
+                startActivity(new Intent(this, QuizMenuActivity.class));
                 break;
             case R.id.blurry:
                 hideSubMenu();
                 break;
             case R.id.settings:
-                DialogBuilder.themeChangeDialog(this, true);
+                startActivity(new Intent(this, SettingsActivity.class));
                 hideSubMenu();
                 break;
             case R.id.aboutUs:
-                DialogBuilder.themeChangeDialog(this, false);
+//                DialogBuilder.themeChangeDialog(this, false);
                 hideSubMenu();
                 break;
             case R.id.fabMenu:

@@ -9,6 +9,10 @@
         <attr name="dividerColor" format="color" />
         <attr name="fabBackground" format="color" />
         <attr name="blurryBackground" format="color" />
+        <attr name="mainBackground" format="color" />
+        <attr name="secondaryBackground" format="color" />
+        <attr name="buttonDefault" format="color|reference" />
+        <attr name="buttonSelected" format="color|reference" />
         <!--<attr name="dividerColor" format="color" />-->
         <!--<attr name="backgroundCardColor" format="color" />-->
         <!--<attr name="iconPlaceholder" format="integer" />-->

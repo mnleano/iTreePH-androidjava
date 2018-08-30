@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/mainBackground"
     android:orientation="vertical"
-    tools:context=".activity.TreesV2Activity">
+    tools:context=".activity.tree.TreesV2Activity">
 
     <include layout="@layout/toolbar" />
 

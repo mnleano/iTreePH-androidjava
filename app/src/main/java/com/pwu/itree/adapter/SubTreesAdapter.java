@@ -6,7 +6,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.pwu.itree.R;
@@ -17,12 +16,12 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.ViewHolder> {
+public class SubTreesAdapter extends RecyclerView.Adapter<SubTreesAdapter.ViewHolder> {
 
     List<Tree> trees;
     OnItemClickListener listener;
 
-    public FamilyTreesAdapter(List<Tree> trees, OnItemClickListener listener) {
+    public SubTreesAdapter(List<Tree> trees, OnItemClickListener listener) {
         this.trees = trees;
         this.listener = listener;
     }
@@ -30,7 +29,7 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_family_trees, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_sub_trees, parent, false);
         return new ViewHolder(v);
     }
 
@@ -38,8 +37,9 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         final Tree tree = trees.get(position);
 
-        holder.tvTree.setText(tree.getScientificName());
-        holder.ivTree.setImageResource(tree.getDrawable());
+        holder.tvCommonName.setText(tree.getCommonName());
+        holder.tvScientificName.setText(tree.getScientificName());
+
         holder.container.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,10 +57,10 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
 
         @BindView(R.id.container)
         CardView container;
-        @BindView(R.id.tvTree)
-        TextView tvTree;
-        @BindView(R.id.ivTree)
-        ImageView ivTree;
+        @BindView(R.id.tvCommonName)
+        TextView tvCommonName;
+        @BindView(R.id.tvScientificName)
+        TextView tvScientificName;
 
         ViewHolder(View view) {
             super(view);
@@ -69,6 +69,6 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
     }
 
     public interface OnItemClickListener {
-        void onItemClick(int familyType);
+        void onItemClick(int id);
     }
 }

@@ -1,7 +1,9 @@
-package com.pwu.itree.activity;
+package com.pwu.itree.activity.tree;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,8 +11,11 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import com.pwu.itree.R;
+import com.pwu.itree.activity.BaseActivity;
 import com.pwu.itree.adapter.FamilyTreesAdapter;
+import com.pwu.itree.adapter.SubTreesAdapter;
 import com.pwu.itree.data.DatabaseQueries;
+import com.pwu.itree.model.Tree;
 
 import java.util.List;
 
@@ -29,8 +34,9 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
     FamilyTreesAdapter adapter;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onResume() {
+        super.onResume();
+
         setContentView(R.layout.activity_trees_v2);
         ButterKnife.bind(this);
 
@@ -38,13 +44,10 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
         initList();
     }
 
-
     private void initToolbar() {
 
         setSupportActionBar(toolbar, true);
         setTitle("Families");
-
-//        Objects.requireNonNull(getActionBar()).setDisplayHomeAsUpEnabled(true);
 
     }
 
@@ -52,9 +55,7 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
         list = DatabaseQueries.getFamilyTrees(this);
         adapter = new FamilyTreesAdapter(list, this);
 
-
         onConfigurationChanged(getResources().getConfiguration());
-
         checkOrientation();
         rv.setAdapter(adapter);
     }
@@ -77,7 +78,33 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
     }
 
     @Override
-    public void onItemClick(int id) {
-        startActivity(new Intent(this, FamilyTreeActivity.class).putExtra("familyType", id));
+    public void onItemClick(final int familyType) {
+        final Dialog dialog = new Dialog(this);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+        List<Tree> trees = DatabaseQueries.getSubTrees(this, familyType);
+        SubTreesAdapter adapter = new SubTreesAdapter(trees, new SubTreesAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int id) {
+                dialog.dismiss();
+                Tree subTree = DatabaseQueries.getSubTree(TreesV2Activity.this, familyType, id);
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("SubTree", subTree);
+
+                startActivity(new Intent(TreesV2Activity.this, SingleTreeActivity.class)
+                        .putExtras(extras));
+
+            }
+        });
+
+        RecyclerView recyclerView = new RecyclerView(this);
+        recyclerView.setAdapter(adapter);
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+            recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        else
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        dialog.setContentView(recyclerView);
+        dialog.show();
     }
 }

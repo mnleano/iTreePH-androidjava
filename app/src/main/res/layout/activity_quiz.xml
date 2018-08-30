@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mainBackground"
+    android:orientation="vertical"
+    tools:context=".activity.quiz.QuizActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/tilesBackground"
+        android:padding="16dp"
+        android:text="Score: 0"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/textSizeMedium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivTree"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true" />
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:textColor="@color/textColorWhite" />
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:textColor="@color/textColorWhite" />
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:textColor="@color/textColorWhite" />
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:textColor="@color/textColorWhite" />
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="12dp"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginStart="16dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvOption1"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_selector"-->
+    <!--android:padding="12dp"-->
+    <!--android:textColor="@color/textColorWhite" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvOption2"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_selector"-->
+    <!--android:padding="12dp"-->
+    <!--android:textColor="@color/textColorWhite" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginStart="16dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvOption3"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_selector"-->
+    <!--android:padding="12dp"-->
+    <!--android:textColor="@color/textColorWhite" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvOption4"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="4dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_selector"-->
+    <!--android:padding="12dp"-->
+    <!--android:textColor="@color/textColorWhite" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>
