@@ -3,6 +3,7 @@ package com.pwu.itree.activity.quiz;
 import android.content.DialogInterface;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +26,9 @@ import com.pwu.itree.model.Tree;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import butterknife.BindView;
 import butterknife.BindViews;
@@ -37,6 +40,8 @@ public class QuizActivity extends BaseActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.tvTimer)
+    TextView tvTimer;
     @BindView(R.id.ivTree)
     ImageView ivTree;
     @BindView(R.id.tvScore)
@@ -53,6 +58,10 @@ public class QuizActivity extends BaseActivity {
     int correctAnswer;
 
     Tree tree;
+
+    CountDownTimer timer;
+
+    private QuizType quizType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,18 +81,52 @@ public class QuizActivity extends BaseActivity {
 
     private void startGame() {
 
+        quizType = (QuizType) getIntent().getExtras().getSerializable("QuizType");
+
         randomizer = new Random();
         int familyType = randomizer.nextInt(15);
         trees = DatabaseQueries.getSubTrees(this, familyType);
         Collections.shuffle(trees);
 
+
         treeNames = new ArrayList<>();
-        for (int i = 0; i < trees.size(); i++)
-            treeNames.add(trees.get(i).getCommonName());
+        if (quizType == QuizType.GUESS_COMMON_NAME)
+            for (int i = 0; i < trees.size(); i++)
+                treeNames.add(trees.get(i).getCommonName());
+        else
+            for (int i = 0; i < trees.size(); i++)
+                treeNames.add(trees.get(i).getScientificName());
 
         questionIndex = 0;
         correctAnswer = 0;
         initQuestion();
+        startTimer();
+
+    }
+
+    private void startTimer() {
+
+        timer = new CountDownTimer(60000, 1000) {
+
+            @Override
+            public void onTick(long millis) {
+                Log.d("TAG_", "onTick: " + millis);
+                String timeRemaining = String.format(Locale.getDefault(), "%02d:%02d",
+                        TimeUnit.MILLISECONDS.toMinutes(millis),
+                        TimeUnit.MILLISECONDS.toSeconds(millis) -
+                                TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis))
+                );
+
+                tvTimer.setText(timeRemaining);
+            }
+
+            @Override
+            public void onFinish() {
+                addScoreToDB("Time\'s up)");
+            }
+        };
+
+        timer.start();
 
     }
 
@@ -166,17 +209,17 @@ public class QuizActivity extends BaseActivity {
             initQuestion();
         } else {
             Log.d(TAG, "Game over:" + correctAnswer);
-            addScoreToDB();
+            addScoreToDB("Game Over");
         }
     }
 
-    private void addScoreToDB() {
-
+    private void addScoreToDB(String title) {
+        timer.cancel();
         if (correctAnswer > 3) {
             final EditText editText = new EditText(this);
             AlertDialog.Builder builder = DialogBuilder.getBuilder(this);
-            builder.setTitle("Congratulations");
-            builder.setMessage("Please enter your name to add in High score!");
+            builder.setTitle(title);
+            builder.setMessage("Congratulations!\nPlease enter your name to add in High score!");
             builder.setView(editText);
             builder.setCancelable(false);
             builder.setPositiveButton("Done", new DialogInterface.OnClickListener() {
@@ -186,7 +229,7 @@ public class QuizActivity extends BaseActivity {
                     if (name.equals(""))
                         editText.setError("Please enter your name");
                     else {
-                        DatabaseQueries.addScore(QuizActivity.this, new GameScore(name, correctAnswer));
+                        DatabaseQueries.addScore(QuizActivity.this, quizType.getType(), new GameScore(name, correctAnswer));
                         dialogInterface.dismiss();
                         finish();
                     }
@@ -195,8 +238,8 @@ public class QuizActivity extends BaseActivity {
         } else {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Sorry!");
-            builder.setMessage("You don\'t reach the quota to be added in our High Score!");
+            builder.setTitle(title);
+            builder.setMessage("Sorry you don\'t reach the quota to be added in our High Score!");
             builder.setCancelable(false);
             builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                         @Override

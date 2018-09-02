@@ -29,7 +29,8 @@
         <activity
             android:name=".activity.quiz.QuizActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".activity.quiz.QuizScoreActivity"></activity>
+        <activity android:name=".activity.quiz.QuizScoreActivity" />
+        <activity android:name=".activity.quiz.QuizMainMenuActivity"></activity>
     </application>
 
 </manifest>

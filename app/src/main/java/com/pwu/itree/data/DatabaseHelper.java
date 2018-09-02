@@ -25,7 +25,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "TAG_" + DatabaseHelper.class.getSimpleName();
 
     private static final String DB_NAME = "DB_iTree";
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 5;
 
     public static final String TBL_FAMILY = "TBL_FAMILY";
     public static final String TBL_TREES = "TBL_TREES";
@@ -54,7 +54,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(createTable(TBL_TREES, "familyType integer, id integer, commonName varchar, scientificName varchar," +
                 " description varchar, habitat varchar, cultivationDetails varchar, otherUsage varchar, drawable integer"));
 
-        db.execSQL(createTable("TBL_SCORES", "name varchar, score integer"));
+        db.execSQL(createTable("TBL_SCORES", "type integer, name varchar, score integer"));
         populateDB(db);
 
     }

@@ -10,19 +10,39 @@
 
     <include layout="@layout/toolbar" />
 
-    <TextView
-        android:id="@+id/tvScore"
-        android:layout_width="112dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
-        android:background="?attr/tilesBackground"
-        android:padding="16dp"
-        android:text="Score: 0"
-        android:textColor="@color/textColorWhite"
-        android:textSize="@dimen/textSizeMedium"
-        android:textStyle="bold" />
+        android:layout_margin="16dp">
+
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:background="?attr/tilesBackground"
+            android:padding="16dp"
+            android:text="00:00"
+            android:textColor="@color/textColorWhite"
+            android:textSize="@dimen/textSizeMedium"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/tilesBackground"
+            android:padding="16dp"
+            android:text="Score: 0"
+            android:textColor="@color/textColorWhite"
+            android:textSize="@dimen/textSizeMedium"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/ivTree"

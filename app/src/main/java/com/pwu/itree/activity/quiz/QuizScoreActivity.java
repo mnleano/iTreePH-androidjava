@@ -24,6 +24,7 @@ public class QuizScoreActivity extends BaseActivity {
     @BindView(R.id.list)
     ListView list;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,8 @@ public class QuizScoreActivity extends BaseActivity {
         setSupportActionBar(toolbar, true);
         setTitle("High Score");
 
-        List<GameScore> scoreList = DatabaseQueries.getHighScore(this);
+        QuizType quizType = (QuizType) getIntent().getExtras().getSerializable("QuizType");
+        List<GameScore> scoreList = DatabaseQueries.getHighScore(this, quizType.getType());
         ScoreAdapter adapter = new ScoreAdapter(this, scoreList);
         list.setAdapter(adapter);
     }

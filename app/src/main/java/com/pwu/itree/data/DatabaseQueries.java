@@ -125,20 +125,21 @@ public class DatabaseQueries {
         }
     }
 
-    public static void addScore(Context ctx, GameScore score) {
+    public static void addScore(Context ctx, int type, GameScore score) {
         ContentValues values = new ContentValues();
+        values.put("type", type);
         values.put("name", score.getName());
         values.put("score", score.getScore());
         getWritableSQL(ctx).insert("TBL_SCORES", null, values);
         getWritableSQL(ctx).close();
     }
 
-    public static List<GameScore> getHighScore(Context ctx) {
+    public static List<GameScore> getHighScore(Context ctx, int type) {
 
         List<GameScore> scores = new ArrayList<>();
-        Cursor cursor = getReadableSQL(ctx).query("TBL_SCORES", null, null, null, null, null, "score DESC");
+        Cursor cursor = getReadableSQL(ctx).query("TBL_SCORES", null, "type=?", new String[]{String.valueOf(type)}, null, null, "score DESC");
         while (cursor.moveToNext())
-            scores.add(new GameScore(cursor.getString(0), cursor.getInt(1)));
+            scores.add(new GameScore(cursor.getString(cursor.getColumnIndex("name")), cursor.getInt(cursor.getColumnIndex("index"))));
         return scores;
     }
 

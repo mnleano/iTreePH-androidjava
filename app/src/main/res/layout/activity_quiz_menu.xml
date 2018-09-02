@@ -17,15 +17,18 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="200dp"
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="-32dp"
             android:background="?attr/tilesBackground"
             android:gravity="center"
             android:lineSpacingExtra="4dp"
             android:padding="16dp"
-            android:text="Can you guess\nthe Tree"
+            android:text="GUESS THE TREE NAME"
             android:textColor="@color/textColorWhite"
             android:textSize="@dimen/textSizeHeader" />
 
@@ -37,7 +40,7 @@
             android:layout_marginTop="48dp"
             android:background="@drawable/button_selector"
             android:text="Start"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/textSizeMedium" />
 
@@ -49,7 +52,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/button_selector"
             android:text="High Score"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/textSizeMedium" />
     </LinearLayout>
