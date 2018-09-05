@@ -97,6 +97,7 @@ public class MenuActivity extends BaseActivity {
             case R.id.aboutUs:
 //                DialogBuilder.themeChangeDialog(this, false);
                 hideSubMenu();
+                showAboutUs();
                 break;
             case R.id.fabMenu:
                 onFabClicked();
@@ -122,5 +123,33 @@ public class MenuActivity extends BaseActivity {
         fabMenu.setImageResource(R.drawable.ic_arrow_down);
         subMenu.setVisibility(View.VISIBLE);
         blurry.setVisibility(View.VISIBLE);
+    }
+
+    private void showAboutUs(){
+
+        AlertDialog.Builder builder = DialogBuilder.getBuilder(this);
+        builder.setTitle("iTree PH")
+                .setMessage("iTree PH is powered by\n" +
+                        "Nicole Montealto,\n" +
+                        "Glenn Pascual,\n" +
+                        "Joshua Taguilaso.\n" +
+                        "\n" +
+                        "iTree PH is an application where the user can get information about tropical rainforest trees in the Philippines. It has also two mini-games that can help the user to remember well the trees information.\n" +
+                        "\n" +
+                        "For more information please contact us at the following:\n" +
+                        "nicolemontealto.17@gmail.com\n" +
+                        "glennpascual75@gmail.com\n" +
+                        "jtaguilaso38@gmail.com\n" +
+                        "\n" +
+                        "All information is from: http://tropical.theferns.info/\n" +
+                        "\n" +
+                        "Copyright (c) 2018")
+                .setPositiveButton("Done", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).show();
+
     }
 }
