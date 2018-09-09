@@ -137,9 +137,13 @@ public class DatabaseQueries {
     public static List<GameScore> getHighScore(Context ctx, int type) {
 
         List<GameScore> scores = new ArrayList<>();
-        Cursor cursor = getReadableSQL(ctx).query("TBL_SCORES", null, "type=?", new String[]{String.valueOf(type)}, null, null, "score DESC");
+        SQLiteDatabase db = getReadableSQL(ctx);
+        Cursor cursor = db.query("TBL_SCORES", null, "type=?", new String[]{String.valueOf(type)}, null, null, "score DESC");
+        Log.d(TAG, "Size: " + cursor.getCount());
+//        if (cursor.moveToNext())
         while (cursor.moveToNext())
-            scores.add(new GameScore(cursor.getString(cursor.getColumnIndex("name")), cursor.getInt(cursor.getColumnIndex("index"))));
+            scores.add(new GameScore(cursor.getString(cursor.getColumnIndex("name")), cursor.getInt(cursor.getColumnIndex("score"))));
+        cursor.close();
         return scores;
     }
 

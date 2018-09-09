@@ -22,6 +22,7 @@ import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.data.EZSharedPreferences;
 import com.pwu.itree.model.GameScore;
 import com.pwu.itree.model.Tree;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -133,7 +134,9 @@ public class QuizActivity extends BaseActivity {
     private void initQuestion() {
 
         tree = trees.get(questionIndex);
-        ivTree.setImageResource(tree.getDrawable());
+//        ivTree.setImageResource(tree.getDrawable());
+
+        Picasso.get().load(tree.getDrawable()).resize(200, 200).into(ivTree);
 
         answerIndex = randomizer.nextInt(4);
 
@@ -237,7 +240,7 @@ public class QuizActivity extends BaseActivity {
             }).show();
         } else {
 
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            AlertDialog.Builder builder = DialogBuilder.getBuilder(this);
             builder.setTitle(title);
             builder.setMessage("Sorry you don\'t reach the quota to be added in our High Score!");
             builder.setCancelable(false);

@@ -35,7 +35,7 @@ public class tree0 {
                 "'None known. ', " +
                 R.drawable.tree_araceae_amydriummedium));
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 3, 'Corazon de Maria', 'Caladium bicalor)', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_TREES, DatabaseHelper.TBL_TREES_ROW, "0, 3, 'Corazon de Maria', 'Caladium bicalor', " +
                 "'Caladium is a genus of flowering plants in the family tree0. They are often known by the common name elephant ear (which they share with the closely related genera Alocasia, Colocasia, and Xanthosoma), Heart of Jesus, and Angel Wings. There are over 1000 named cultivars of Caladium bicolor from the original South American plant.\n" +
                 "The genus Caladium includes seven species that are native to South America and Central America, and naturalized in India, parts of Africa, and various tropical islands.[1] They grow in open areas of the forest and on the banks of rivers and go dormant during the dry season. The wild plants grow to 15â€“35 inches (40â€“90 cm) tall, with leaves mostly 6-18 inches (15â€“45 cm) long and broad.\n', " +
                 "'Shady positions in moist, fertile soils. ', " +

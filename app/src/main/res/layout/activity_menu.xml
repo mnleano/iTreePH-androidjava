@@ -52,7 +52,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="List of Trees"
                 android:textColor="@color/textColorWhite"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:visibility="gone" />
         </LinearLayout>
 
         <ImageView
