@@ -5,7 +5,7 @@
 
     <alpha
 
-        android:duration="500"
+        android:duration="200"
         android:fromAlpha="1"
         android:toAlpha="0" />
 

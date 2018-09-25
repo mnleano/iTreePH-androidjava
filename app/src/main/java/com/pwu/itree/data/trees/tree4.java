@@ -13,7 +13,7 @@ public class tree4 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "4, '', 'Myrtaceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "4, '/Myr-ta-ce-ae/', 'Myrtaceae', " +
                 "'Is a large family of mainly trees and shrubs with over a hundred different genera, thousands of species and a huge number of garden hybrids and cultivars. All species are woody, with essential oils, and flower parts in multiples of four or five. The leaves are evergreen, alternate to mostly opposite, simple, and usually with an entire (not toothed) margin. The flowers have a base number of five petals, though in several genera the petals are minute or absent. The stamens are usually very conspicuous, brightly coloured and numerous.', " + R.drawable.family_myrtaceae));
 
         // 4 - Myrtaceae

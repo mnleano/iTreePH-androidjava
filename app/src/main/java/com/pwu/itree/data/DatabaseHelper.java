@@ -25,7 +25,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "TAG_" + DatabaseHelper.class.getSimpleName();
 
     private static final String DB_NAME = "DB_iTree";
-    private static final int DB_VERSION = 5;
+    private static final int DB_VERSION = 7;
 
     public static final String TBL_FAMILY = "TBL_FAMILY";
     public static final String TBL_TREES = "TBL_TREES";

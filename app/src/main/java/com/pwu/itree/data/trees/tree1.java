@@ -13,7 +13,7 @@ public class tree1 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "1, '', 'Arecaceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "1, '/Ar-e-ca-ce-ae/', 'Arecaceae', " +
                 "'Botanical family of perennial trees, climbers, shrubs, and acaules commonly known as palm trees (owing to historical usage, the family is alternatively called Palmae). They are flowering plants, a family in the monocot order Arecales. Currently 181 genera with around 2600 species are known, most of them restricted to tropical and subtropical climates. Most palms are distinguished by their large, compound, evergreen leaves, known as fronds, arranged at the top of an unbranched stem. However, palms exhibit an enormous diversity in physical characteristics and inhabit nearly every type of habitat within their range, from rainforests to deserts.', " + R.drawable.family_arecaceae));
 
 

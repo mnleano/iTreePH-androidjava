@@ -5,11 +5,15 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.pwu.itree.R;
 import com.pwu.itree.activity.BaseActivity;
+import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.data.EZSharedPreferences;
+
+import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -25,6 +29,8 @@ public class QuizMenuActivity extends BaseActivity {
     TextView tvTitle;
     @BindView(R.id.btnHighScore)
     Button btnHighScore;
+    @BindView(R.id.container)
+    LinearLayout container;
 
     private QuizType quizType;
 
@@ -45,6 +51,13 @@ public class QuizMenuActivity extends BaseActivity {
     }
 
     private void initData() {
+
+        Random random = new Random();
+        int familyType = random.nextInt(15);
+        int id = random.nextInt(15);
+
+        int drawable = DatabaseQueries.getSubTree(this, familyType, id).getDrawable();
+        container.setBackgroundResource(drawable);
 
         quizType = null;
         if (getIntent().getExtras() != null)

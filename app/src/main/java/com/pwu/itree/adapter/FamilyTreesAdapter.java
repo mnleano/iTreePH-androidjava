@@ -39,6 +39,7 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
         final Tree tree = trees.get(position);
 
         holder.tvTree.setText(tree.getScientificName());
+        holder.tvSyllable.setText(tree.getCommonName());
         holder.ivTree.setImageResource(tree.getDrawable());
         holder.container.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +60,8 @@ public class FamilyTreesAdapter extends RecyclerView.Adapter<FamilyTreesAdapter.
         CardView container;
         @BindView(R.id.tvTree)
         TextView tvTree;
+        @BindView(R.id.tvSyllable)
+        TextView tvSyllable;
         @BindView(R.id.ivTree)
         ImageView ivTree;
 

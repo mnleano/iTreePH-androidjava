@@ -25,17 +25,17 @@ public class AnimationHelper {
         return AnimationUtils.loadAnimation(ctx, animRes);
     }
 
-    private void startAnimation(View v){
+    private void startAnimation(View v) {
         v.startAnimation(anim);
     }
 
-    private void startAnimationSet(View v, Animation anim){
+    private void startAnimationSet(View v, Animation anim) {
         v.startAnimation(anim);
     }
     // - - - - - - - - - - - - - - - -
 
     public void zoomIn(View view) {
-        anim = AnimationUtils.loadAnimation(ctx, R.anim.shake);
+        anim = AnimationUtils.loadAnimation(ctx, R.anim.zoom_in);
         view.startAnimation(anim);
     }
 
@@ -74,7 +74,7 @@ public class AnimationHelper {
         startAnimation(view);
     }
 
-    public void hybrid(View view){
+    public void hybrid(View view) {
         AnimationSet set = new AnimationSet(false);
         set.addAnimation(getAnimation(R.anim.fade_in));
         set.addAnimation(getAnimation(R.anim.slide_left));

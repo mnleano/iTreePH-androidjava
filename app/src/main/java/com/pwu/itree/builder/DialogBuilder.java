@@ -30,6 +30,7 @@ public class DialogBuilder {
         builder.setCancelable(true);
 
         final AlertDialog dialog = builder.create();
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         dialog.show();
 
         ImageView ivTree = v.findViewById(R.id.ivTree);

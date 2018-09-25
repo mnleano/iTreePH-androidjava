@@ -10,7 +10,7 @@ import static com.pwu.itree.data.DatabaseHelper.insertQuery;
 public class tree0 {
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "0, '', 'Araceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "0, '/Ara-ce-ae/', 'Araceae', " +
                 "'Family of monocotyledonous flowering plants in which flowers are borne on a type of inflorescence called a spadix. The spadix is usually accompanied by, and sometimes partially enclosed in, a spathe or leaf-like bract. Also known as the arum family, members are often colloquially known as aroids. This family of 114 genera and about 3750 known species is most diverse in the New World tropics, although also distributed in the Old World tropics and northern temperate regions. Species in the Araceae are often rhizomatous or tuberous and are often found to contain calcium oxalate crystals or raphides. The leaves can vary considerably from species to species. The inflorescence is composed of a spadix, which is almost always surrounded by a modified leaf called a spathe. In monoecious aroids (possessing separate male and female flowers, but with both flowers present on one plant), the spadix is usually organized with female flowers towards the bottom and male flowers towards the top. In aroids with perfect flowers, the stigma is no longer receptive when the pollen is released, thus preventing self-fertilization. Some species are dioecious.', " +
                 R.drawable.family_araceae));
         // 0 - tree0

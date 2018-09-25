@@ -13,7 +13,7 @@ public class tree10 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "10, '', 'Meliaceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "10, '/Me-li-a-ce-ae/', 'Meliaceae', " +
                 "'The dogbane family of flowering plants of the gentian order (Gentianales), including more than 415 genera and about 4,600 species of trees, shrubs, woody vines, and herbs, distributed primarily in tropical and subtropical areas of the world. Members of the family have milky, often poisonous juice; smooth-margined leaves; and flowers in clusters (rarely solitary). Some species, notably those in the subfamily Asclepiadoideae, have pollen massed in bundles called pollinia. The fruit may be berrylike or fleshy but usually is a dry pod (follicle) that splits open at maturity, releasing many winged or tufted seeds.', " + R.drawable.family_meliaceae));
 
         // 10 - Meliaceae

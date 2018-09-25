@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 
 import com.pwu.itree.R;
 import com.pwu.itree.activity.BaseActivity;
@@ -17,16 +19,19 @@ import com.pwu.itree.adapter.SubTreesAdapter;
 import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.model.Tree;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.OnItemClickListener {
+public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.OnItemClickListener, SearchView.OnQueryTextListener {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.searchView)
+    SearchView searchView;
     @BindView(R.id.rv)
     RecyclerView rv;
 
@@ -42,6 +47,7 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
 
         initToolbar();
         initList();
+        initListener();
     }
 
     private void initToolbar() {
@@ -59,6 +65,13 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
         checkOrientation();
         rv.setAdapter(adapter);
     }
+
+    private void initListener() {
+
+        searchView.setOnQueryTextListener(this);
+
+    }
+
 
     private void checkOrientation() {
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
@@ -106,5 +119,26 @@ public class TreesV2Activity extends BaseActivity implements FamilyTreesAdapter.
 
         dialog.setContentView(recyclerView);
         dialog.show();
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        Log.d("TAG_", "onQueryTextSubmit");
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+        Log.d("TAG_", "onQueryTextChange");
+        List<Tree> newList = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getScientificName().toLowerCase().contains(newText))
+                newList.add(list.get(i));
+        }
+
+        adapter = new FamilyTreesAdapter(newList, this);
+        rv.setAdapter(adapter);
+        return false;
     }
 }

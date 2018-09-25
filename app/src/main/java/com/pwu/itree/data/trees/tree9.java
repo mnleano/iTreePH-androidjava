@@ -13,7 +13,7 @@ public class tree9 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "9, '', 'Dipterocarpaceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "9, '/Dip-ter-o-car-pa-ce-ae/', 'Dipterocarpaceae', " +
                 "'Family of 16 genera and approximately 695 known species of mainly tropical lowland rainforest trees. The family name, from the type genus Dipterocarpus, is derived from Greek (di = two, pteron = wing and karpos = fruit) and refers to the two-winged fruit. The largest genera are Shorea, Hopea, Dipterocarpus, and Vatica. Many are large forest emergent species, typically reaching heights of 40–70 m, some even over 80 m (in the genera Dryobalanops, Hopea and Shorea), with the tallest known living specimen (Shorea faguetiana) 93.0 m tall. The species of this family are of major importance in the timber trade. Their distribution is pantropical, from northern South America to Africa, the Seychelles, India, Indochina, Indonesia and Malaysia. The greatest diversity of Dipterocarpaceae occurs in Borneo.[6] Some species are now endangered as a result of overcutting, extensive illegal logging and habitat conversion. They provide valuable woods, aromatic essential oils, balsam, resins and are a source for plywood.', " + R.drawable.family_dipterocarpaceae));
 
         // 9 - Dipterocarpaceae

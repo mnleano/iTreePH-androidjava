@@ -13,7 +13,7 @@ public class tree5 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "5, '', 'Fabaceae: Caesalpiniodeae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "5, '/Fa-ba-ce-ae: Caes-al-pin-i-a-ce-ae/', 'Fabaceae: Caesalpiniodeae', " +
                 "'The subfamily Caesalpinioideae (classified as a family, Caesalpiniaceae, by some authorities) is a heterogeneous group of plants with about 160 genera and some 2,000 species. The latest classifications show that this subfamily is the most basal lineage among the legumes and the one from which the other two subfamilies evolved. In that sense it is not a true monophyletic group, and it will undoubtedly be treated taxonomically in a different way in the future. Caesalpinioideae legumes are found throughout the world but are primarily woody plants in the tropics. Their moderate secondary invasion of temperate regions is mostly by herbaceous (nonwoody) evolutionary derivatives. The presence of Gleditsia triacanthos (honey locust) and of the related Gymnocladus dioica (Kentucky coffee tree) in temperate regions is a striking exception to this generalization, however, and they may represent more ancient and relictual lineages in the subfamily.', " + R.drawable.family_fabaceae));
 
         // 5 - Fabaceae: Caesalpiniodeae

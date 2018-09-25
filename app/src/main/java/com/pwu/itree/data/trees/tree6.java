@@ -13,7 +13,7 @@ public class tree6 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "6, '', 'Fabaceae: Mimosoideae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "6, '/Fa-ba-ce-ae: Mim-o-sa-ceae/', 'Fabaceae: Mimosoideae', " +
                 "'The subfamily Mimosoideae (classified as a family, Mimosaceae, by some authorities) includes 82 genera and more than 3,200 species. Like Caesalpinioideae, Mimosoideae legumes are primarily woody plants of the tropics, and the few species native to temperate parts of the world are mostly herbaceous. The majority of Mimosoideae have large leaves that are divided into secondary (compound) leaflets, and in many these leaflets are again divided (bicompound) and have a feathery, sometimes fernlike appearance. A striking exception is that of most of the Australian acacias (but not of the American kinds) mentioned above, in which the compound leaves have become modified, losing all their leaflets and appearing to be undivided, or simple. The flowers of the family are radially symmetric and are usually most easily recognized by the long stamens that extend beyond the rest of the flower. The calyx and corolla are both valvate in bud, contrasting with the usual condition in both of the other subfamilies. The petals are small and often not noticed except by close examination. Many of these plants have nodules containing the nitrogen-fixing bacterium Rhizobium on their roots.', " + R.drawable.family_fabaceae_mimosoideae));
 
         // 6 - Fabaceae: Mimosoideae

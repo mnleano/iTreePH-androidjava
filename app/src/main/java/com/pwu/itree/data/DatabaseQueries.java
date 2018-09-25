@@ -27,14 +27,15 @@ public class DatabaseQueries {
     public static List<Tree> getFamilyTrees(Context ctx) {
         SQLiteDatabase db = getReadableSQL(ctx);
         List<Tree> list = new ArrayList<>();
-        Cursor cursor = db.query(DatabaseHelper.TBL_FAMILY, null, null, null, null, null, null, null);
+        Cursor cursor = db.query(DatabaseHelper.TBL_FAMILY, null, null, null, null, null, "scientificName asc");
         while (cursor.moveToNext()) {
 
             int id = cursor.getInt(cursor.getColumnIndex("id"));
+            String commonName = cursor.getString(cursor.getColumnIndex("commonName"));
             String scientificName = cursor.getString(cursor.getColumnIndex("scientificName"));
             int drawable = cursor.getInt(cursor.getColumnIndex("drawable"));
 
-            list.add(new Tree(id, scientificName, drawable));
+            list.add(new Tree(id, commonName, scientificName, drawable));
         }
         return list;
     }
@@ -42,7 +43,7 @@ public class DatabaseQueries {
     public static List<Tree> getSubTrees(Context ctx, int familyType) {
 
         List<Tree> trees = new ArrayList<>();
-        Cursor cursor = getReadableSQL(ctx).query(DatabaseHelper.TBL_TREES, null, "familyType =?", new String[]{String.valueOf(familyType)}, null, null, null);
+        Cursor cursor = getReadableSQL(ctx).query(DatabaseHelper.TBL_TREES, null, "familyType =?", new String[]{String.valueOf(familyType)}, null, null, "commonName asc");
         while (cursor.moveToNext()) {
             int id = cursor.getInt(cursor.getColumnIndex("id"));
             String commonName = cursor.getString(cursor.getColumnIndex("commonName"));

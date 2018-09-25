@@ -13,7 +13,7 @@ public class tree3 {
 
     public static void insert(SQLiteDatabase db) {
 
-        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "3, '', 'Annonaceae', " +
+        db.execSQL(insertQuery(DatabaseHelper.TBL_FAMILY, DatabaseHelper.TBL_FAMILY_ROW, "3, '/An-no-na-ce-ae/', 'Annonaceae', " +
                 "'The custard apple, or annona, family, the largest family of the magnolia order (Magnoliales) with 129 genera and about 2,120 species. The family consists of trees, shrubs, and woody climbers found mainly in the tropics, although a few species extend into temperate regions. Many species are valuable for their large pulpy fruits, some are useful for their timber, and others are prized as ornamentals. Bark, leaves, and roots of several species are important in folk medicine, and others are important sources of perfume and spice. Members of the family tree3 have simple leaves with smooth margins that are alternately arranged in two rows along the stems. The radially symmetrical flowers are usually bisexual. In most species the three sepals are united at the base. There are six brown, yellow, or greenish petals, many stamens in a spiral, and many pistils, each with a one-chambered ovary containing many ovules. The fruit is a berry. Flowers in some species are borne directly on large branches or on the trunk (cauliflorous). The leaves and wood are often fragrant.', " + R.drawable.family_annonaceae));
 
 //        3 - Annonaceae

@@ -1,12 +1,10 @@
 package com.pwu.itree.activity.quiz;
 
 import android.content.DialogInterface;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +20,7 @@ import com.pwu.itree.data.DatabaseQueries;
 import com.pwu.itree.data.EZSharedPreferences;
 import com.pwu.itree.model.GameScore;
 import com.pwu.itree.model.Tree;
+import com.pwu.itree.utils.AnimationHelper;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -49,6 +48,8 @@ public class QuizActivity extends BaseActivity {
     TextView tvScore;
     @BindViews({R.id.btnOption1, R.id.btnOption2, R.id.btnOption3, R.id.btnOption4})
     List<Button> btnOptions;
+    @BindView(R.id.imgResult)
+    ImageView imgResult;
 
     private Random randomizer;
     private List<Tree> trees; // known as SubTrees;
@@ -63,6 +64,7 @@ public class QuizActivity extends BaseActivity {
     CountDownTimer timer;
 
     private QuizType quizType;
+    AnimationHelper animation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +79,7 @@ public class QuizActivity extends BaseActivity {
         setSupportActionBar(toolbar, true);
         setTitle("Quiz");
 
+        animation = new AnimationHelper(this);
         startGame();
     }
 
@@ -196,11 +199,16 @@ public class QuizActivity extends BaseActivity {
             correctAnswer++;
             tvScore.setText("Score: " + correctAnswer);
 
+            Picasso.get().load(R.drawable.img_correct).into(imgResult);
+
+
         } else {
             // WRONG ANSWER;
             Log.d(TAG, "Wrong answer");
+            Picasso.get().load(R.drawable.img_wrong).into(imgResult);
         }
 
+        animation.zoomIn(imgResult);
 
         questionIndex++;
 
@@ -260,5 +268,6 @@ public class QuizActivity extends BaseActivity {
     protected void onDestroy() {
         super.onDestroy();
         ivTree.setImageDrawable(null);
+        timer.cancel();
     }
 }

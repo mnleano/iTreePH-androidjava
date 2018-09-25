@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/mainBackground"
@@ -18,7 +19,7 @@
 
         <TextView
             android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginEnd="32dp"
@@ -27,7 +28,10 @@
             android:background="?attr/tilesBackground"
             android:gravity="center"
             android:lineSpacingExtra="4dp"
-            android:padding="16dp"
+            android:paddingBottom="8dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
             android:text="GUESS THE TREE NAME"
             android:textColor="@color/textColorWhite"
             android:textSize="@dimen/textSizeHeader" />
@@ -35,7 +39,7 @@
         <Button
             android:id="@+id/btnStart"
             android:layout_width="200dp"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="48dp"
             android:background="@drawable/button_selector"
@@ -47,7 +51,7 @@
         <Button
             android:id="@+id/btnHighScore"
             android:layout_width="200dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@drawable/button_selector"
